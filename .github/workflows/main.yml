@@ -1,0 +1,20 @@
+- name: JSONResume Convert
+  # You may pin to the exact commit or the version.
+  # uses: rvdwegen/action-jsonresume-convert@1a3bfb03c607b72281a44b481c74ac41bf0e2c35
+  uses: rvdwegen/action-jsonresume-convert@latest
+  with:
+    # JSONResume theme name.
+Assumes the theme package would be found 
+as `jsonresume-theme-{theme}` in NPM.
+You can search for themes at https://npmsearch.com/?q=jsonresume-theme
+
+    theme: # default is flat
+    # File path of the resume in JSONResume format
+
+    resume_filepath: # optional, default is resume.json
+    # Output file path for exported HTML file.
+
+    output_html_filepath: # optional, default is index.html
+    # Output file path for exported PDF file.
+
+    output_pdf_filepath: # optional, default is resume.pdf
