@@ -1,8 +1,14 @@
-- uses: actions/checkout@v3
-- name: Deploy
-  uses: exuanbo/actions-deploy-gist@v1
-  with:
-    token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
-    gist_id: from_gist_url
-    file_path: LICENSE
-    file_type: binary
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
+          gist_id: from_gist_url
+          file_path: LICENSE
+          file_type: binary
