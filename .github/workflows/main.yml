@@ -4,17 +4,16 @@
   uses: rvdwegen/action-jsonresume-convert@latest
   with:
     # JSONResume theme name.
-Assumes the theme package would be found 
-as `jsonresume-theme-{theme}` in NPM.
-You can search for themes at https://npmsearch.com/?q=jsonresume-theme
-
-    theme: # default is flat
+# Assumes the theme package would be found 
+# as `jsonresume-theme-{theme}` in NPM.
+# You can search for themes at https://npmsearch.com/?q=jsonresume-theme
+    theme: jsonresume-theme-stackoverflow
     # File path of the resume in JSONResume format
 
-    resume_filepath: # optional, default is resume.json
+    resume_filepath: resume.json
     # Output file path for exported HTML file.
 
-    output_html_filepath: # optional, default is index.html
+    output_html_filepath: index.html
     # Output file path for exported PDF file.
 
-    output_pdf_filepath: # optional, default is resume.pdf
+    output_pdf_filepath: resume.pdf
