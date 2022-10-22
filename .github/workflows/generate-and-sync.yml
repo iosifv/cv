@@ -49,14 +49,15 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
-          branch: ${{ github.ref }}
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: './docs'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          branch: generated-page
+
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v2
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     # Upload entire repository
+      #     path: './docs'
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v1
