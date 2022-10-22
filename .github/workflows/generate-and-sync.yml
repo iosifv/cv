@@ -55,4 +55,4 @@ jobs:
         if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
-          branch: main
+          branch: ${{ github.ref }}
