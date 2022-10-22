@@ -51,6 +51,7 @@ jobs:
           github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
           branch: generated-page
 
+
       # - name: Setup Pages
       #   uses: actions/configure-pages@v2
       # - name: Upload artifact
