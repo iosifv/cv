@@ -15,7 +15,7 @@ jobs:
           # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
           theme: stackoverflow
           resume_filepath: resume.json
-          output_html_filepath: docs/resume.html
+          output_html_filepath: docs/index.html
           output_pdf_filepath: docs/resume.pdf
   
       - name: Deploy resume.json
@@ -33,21 +33,13 @@ jobs:
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
           file_path: docs/resume.pdf
           file_type: binary
-
-      - name: Deploy resume.html
-        uses: exuanbo/actions-deploy-gist@v1
-        with:
-          token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
-          gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: docs/resume.html
-          file_type: binary
       
       - name: Commit published HTML
         id: commit
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/resume.html
+          git add docs/index.html
           git add docs/resume.pdf
           git commit -m "Added generated file changes"
       - name: Push changes
