@@ -4,24 +4,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: JSON Resume Convert
-        # You may pin to the exact commit or the version.
-        # uses: rvdwegen/action-jsonresume-convert@1a3bfb03c607b72281a44b481c74ac41bf0e2c35
         uses: rvdwegen/action-jsonresume-convert@latest
         with:
-          # JSONResume theme name.
-      # Assumes the theme package would be found 
-      # as `jsonresume-theme-{theme}` in NPM.
-      # You can search for themes at https://npmsearch.com/?q=jsonresume-theme
+          # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
           theme: stackoverflow
-          # File path of the resume in JSONResume format
-
           resume_filepath: resume.json
-          # Output file path for exported HTML file.
-
           output_html_filepath: index.html
-          # Output file path for exported PDF file.
-
           output_pdf_filepath: resume.pdf
   sync-to-gist:
     runs-on: ubuntu-latest
@@ -32,5 +22,5 @@ jobs:
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: LICENSE
+          file_path: resume.json
           file_type: binary
