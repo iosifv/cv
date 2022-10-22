@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Generator
 on: [push]
 jobs:
   sync:
@@ -13,7 +13,7 @@ jobs:
       # Assumes the theme package would be found 
       # as `jsonresume-theme-{theme}` in NPM.
       # You can search for themes at https://npmsearch.com/?q=jsonresume-theme
-          theme: jsonresume-theme-stackoverflow
+          theme: stackoverflow
           # File path of the resume in JSONResume format
 
           resume_filepath: resume.json
