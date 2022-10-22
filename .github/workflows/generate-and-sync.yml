@@ -11,8 +11,8 @@ jobs:
           # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
           theme: stackoverflow
           resume_filepath: resume.json
-          output_html_filepath: resume.html
-          output_pdf_filepath: resume.pdf
+          output_html_filepath: generated/resume.html
+          output_pdf_filepath: generated/resume.pdf
   
       - name: Deploy resume.json
         uses: exuanbo/actions-deploy-gist@v1
@@ -27,7 +27,7 @@ jobs:
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: resume.pdf
+          file_path: generated/resume.pdf
           file_type: binary
 
       - name: Deploy resume.html
@@ -35,5 +35,24 @@ jobs:
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: resume.html
+          file_path: generated/resume.html
           file_type: binary
+      
+      - name: Commit published HTML
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain generated/index.html)" ]; then
+            git add generated/index.html
+            git commit -m "[ci skip] chore(generated/index.html): update resume page"
+            echo ::set-output name=exit_code::0
+          else
+            echo ::set-output name=exit_code::1
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        if: steps.commit.outputs.exit_code == 0
+        with:
+          github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
+          branch: main
