@@ -42,14 +42,19 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git stash
+          git checkout generated-page
+          git stash pop
           git add docs/index.html
           git add docs/resume.pdf
           git commit -m "Added generated file changes"
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
           branch: generated-page
+          force_with_lease: true
 
 
       # - name: Setup Pages
