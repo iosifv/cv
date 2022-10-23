@@ -13,7 +13,7 @@ jobs:
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
       - name: Create temporary folder
-        id: commit
+        id: mkdir
         run: |
           mkdir temporary
 
@@ -43,7 +43,7 @@ jobs:
           file_type: binary
       
       - name: Commit published HTML
-        id: commit
+        id: git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
