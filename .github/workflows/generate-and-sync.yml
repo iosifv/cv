@@ -11,24 +11,17 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-      
-      - name: Checkout to "generated-page" branch
-        id: checkout
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git checkout generated-page
 
-      - name: JSON Resume Convert
+      - name: JSON Resume Create Files
         uses: rvdwegen/action-jsonresume-convert@latest
         with:
           # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
           theme: caffeine
           resume_filepath: resume.json
-          output_html_filepath: docs/index.html
-          output_pdf_filepath: docs/resume.pdf
+          output_html_filepath: temporary/index.html
+          output_pdf_filepath: temporary/resume.pdf
   
-      - name: Deploy resume.json
+      - name: GIST - Deploy resume.json
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
@@ -36,19 +29,27 @@ jobs:
           file_path: resume.json
           file_type: binary
 
-      - name: Deploy resume.pdf
+      - name: GIST - Deploy resume.pdf
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: docs/resume.pdf
+          file_path: temporary/resume.pdf
           file_type: binary
       
       - name: Commit published HTML
         id: commit
         run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git checkout generated-page
+          
+          cp temporary/index.html docs/index.html
+          cp temporary/resume.pdf docs/resume.pdf
+          
           git add docs/index.html
           git add docs/resume.pdf
+          
           git commit -m "Added generated file changes"
 
       - name: Push changes
