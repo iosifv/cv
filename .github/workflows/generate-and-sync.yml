@@ -16,7 +16,7 @@ jobs:
         uses: rvdwegen/action-jsonresume-convert@latest
         with:
           # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
-          theme: stackoverflow
+          theme: caffeine
           resume_filepath: resume.json
           output_html_filepath: docs/index.html
           output_pdf_filepath: docs/resume.pdf
