@@ -66,6 +66,17 @@
     ],
     "work": [
         {
+            "company": "Freelancer",
+            "position": "Software Engineer",
+            "url": "https://casa4.co.uk/",
+            "startDate": "2020-08-01",
+            "summary": "Contractor for various clients on different projects & extra work on personal projects",
+            "highlights": [
+                "Currently focusing on blockchain projects. As a side, improving my dev-ops skills and working on some Laravel websites.",
+                "Technologies: Hardhat, Solidity, PHP 8, Laravel 8, Laravel 9, Laravel Forge, AWS, VueJS, Node.js, Nuxt JS, CLI, Bash"
+            ]
+        },
+        {
             "company": "True Compliance",
             "position": "Software Engineer",
             "url": "https://truecompliance.co.uk/",
@@ -75,7 +86,7 @@
             "highlights": [
                 "Worked on building the main API of the system. Contributed to all the adjacent applications which constituted the entire ecosystem deployed as serverless functions on AWS with Laravel Vapor. Involved in designing some parts of the ecosystem's architecture.",
                 "Some notable projects were a full reporting application which would create a report from any SQL provided. A system to serve real time data faster to the end client; by saving all the processed relational data into a no-sql database thus providing instant access to the transformed client-friendly set of the data.",
-                "Technologies: PHP 7, PHP 8, Laravel 8, Laravel 9, Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                "Technologies: PHP 7, PHP 8, Laravel 8, Laravel 9, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
         {
