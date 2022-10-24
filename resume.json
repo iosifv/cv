@@ -58,6 +58,7 @@
             "name": "Admin",
             "keywords": [
                 "AWS",
+                "Terraform",
                 "CI / CD",
                 "Docker",
                 "Shell Scripting"
@@ -73,7 +74,7 @@
             "summary": "Contractor for various clients on different projects & extra work on personal projects",
             "highlights": [
                 "Currently focusing on blockchain projects. As a side, improving my dev-ops skills and working on some Laravel websites.",
-                "Technologies: Hardhat, Solidity, PHP 8, Laravel 8, Laravel 9, Laravel Forge, AWS, VueJS, Node.js, Nuxt JS, CLI, Bash"
+                "Technologies: Node.js, Hardhat, Solidity, Terraform, PHP, Laravel, Laravel Forge, AWS, VueJS, Nuxt JS, CLI, Bash"
             ]
         },
         {
