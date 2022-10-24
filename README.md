@@ -27,3 +27,8 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 - [exuanbo/actions-deploy-gist](https://github.com/marketplace/actions/deploy-to-gist)
 - [ad-m/github-push-action](https://github.com/ad-m/github-push-action)
 
+#### Documentation and useful links
+- [JSON Schema - resume.sample](https://github.com/jsonresume/resume-schema/blob/master/sample.resume.json)
+- [JSON Schema - oficial schema](https://github.com/jsonresume/resume-schema/blob/master/schema.json)
+- [JSON Schema - thomasdavis](https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105)
+- 

@@ -66,9 +66,9 @@
     ],
     "work": [
         {
-            "company": "Freelancer",
+            "name": "Freelancer",
             "position": "Software Engineer",
-            "url": "https://casa4.co.uk/",
+            "website": "https://casa4.co.uk/",
             "startDate": "2020-08-01",
             "summary": "Contractor for various clients on different projects & extra work on personal projects",
             "highlights": [
@@ -77,9 +77,9 @@
             ]
         },
         {
-            "company": "True Compliance",
+            "name": "True Compliance",
             "position": "Software Engineer",
-            "url": "https://truecompliance.co.uk/",
+            "website": "https://truecompliance.co.uk/",
             "startDate": "2020-10-01",
             "endDate": "2022-08-01",
             "summary": "Cloud Based Compliance Management System.",
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "company": "Freelancer",
+            "name": "Freelancer",
             "position": "Software Engineer",
             "startDate": "2019-10-01",
             "endDate": "2020-09-01",
@@ -101,9 +101,9 @@
             ]
         },
         {
-            "company": "Skin Analytics",
+            "name": "Skin Analytics",
             "position": "Software Engineer",
-            "url": "https://skin-analytics.com/",
+            "website": "https://skin-analytics.com/",
             "startDate": "2018-10-01",
             "endDate": "2019-10-01",
             "summary": "Designing and developing our main AI Skin Analytics applications and keeping an eye on the AWS infrastructure.",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "company": "Freelancer",
+            "name": "Freelancer",
             "position": "PHP Application Developer",
             "startDate": "2018-07-01",
             "endDate": "2018-11-01",
@@ -125,9 +125,9 @@
             ]
         },
         {
-            "company": "Woooba",
+            "name": "Woooba",
             "position": "PHP Application Developer / Dev-Ops",
-            "url": "https://www.woooba.io/",
+            "website": "https://www.woooba.io/",
             "startDate": "2017-02-01",
             "endDate": "2018-06-01",
             "summary": "Designing, developing & supporting client applications.",
@@ -139,9 +139,9 @@
             ]
         },
         {
-            "company": "iQU Group",
+            "name": "iQU Group",
             "position": "PHP Application Developer",
-            "url": "https://iqu.com/",
+            "website": "https://iqu.com/",
             "startDate": "2015-11-01",
             "endDate": "2016-11-01",
             "summary": "Marketing solutions for game developers.",
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "company": "Project 89109",
+            "name": "Project 89109",
             "position": "PHP Application Developer",
             "startDate": "2014-10-01",
             "endDate": "2015-11-01",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "company": "Hidden Hash (Personal Venture)",
+            "name": "Hidden Hash (Personal Venture)",
             "position": "Hardware Engineer / Dev-Ops",
             "startDate": "2017-11-01",
             "summary": "Family business dealing with mining crypto-currencies.",
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "company": "Saya Studio (Personal Venture)",
+            "name": "Saya Studio (Personal Venture)",
             "position": "Photographer",
             "startDate": "2005-05-01",
             "endDate": "2014-12-01",
