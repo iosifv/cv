@@ -1,3 +1,9 @@
+# Node generated stuff
 node_modules
 package-lock.json
+
+# Test cv exports locally
 exports
+
+# OS Generated
+**/.DS_Store
