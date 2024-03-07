@@ -74,7 +74,20 @@
             "summary": "Contractor for various clients on different projects & extra work on personal projects",
             "highlights": [
                 "Currently focusing on blockchain projects. As a side, improving my dev-ops skills and working on some Laravel websites.",
-                "Technologies: Node.js, Hardhat, Solidity, Terraform, PHP, Laravel, Laravel Forge, AWS, VueJS, Nuxt JS, CLI, Bash"
+                "Technologies: Node.js, Terraform, PHP, Laravel, Laravel Forge, AWS, VueJS, Nuxt JS, CLI, Bash"
+            ]
+        },
+        {
+            "name": "Artetra",
+            "position": "Information Technology Advisor",
+            "website": "https://artetra.io/",
+            "startDate": "2022-03-01",
+            "summary": "Startup that works towards bringing NFT's into online virtual galleries.",
+            "highlights": [
+                "I am contributing within business meetings on the IT side of the project.",
+                "Most of the time is spent on translating the business requirements into actual features of the project by managing a small team of 3-4 developers.",
+                "By having a general view of the project, I can help anyone who is stuck at any point.",
+                "Technologies: Node.js, Hardhat, Solidity, AWS, Bash"
             ]
         },
         {
