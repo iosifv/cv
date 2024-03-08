@@ -68,13 +68,18 @@
     "work": [
         {
             "name": "Casa4",
-            "position": "Freelance Software Engineer",
+            "position": "Senior Software Engineer",
             "website": "https://casa4.co.uk/",
             "startDate": "2022-08-01",
             "summary": "Contractor for various clients on different projects & extra work on personal projects",
             "highlights": [
-                "Currently focusing on blockchain projects. As a side, improving my dev-ops skills and working on some Laravel websites.",
-                "Technologies: Node.js, Terraform, PHP, Laravel, Laravel Forge, AWS, VueJS, Nuxt JS, CLI, Bash"
+                "Contractor for various clients on different projects, mainly focused on pure PHP, Laravel and Node.JS applications with different levels of involvement from developing in a team to the sole actor building the application and setting up the deployment processes.",
+                "Notable Projects/Clients:",
+                "- ElectroRent: Complex tool-renting platform written in Laravel where I worked in a team of about 20 developers.",
+                "- Aliat Optic: Created a complete invoicing application from design to production. Using data from external FTP servers builds beautifully organised information easy to interact with. Built with AWS Lambda functions in Node.js using the Serverless Framework and DynamoDB.",
+                "- The Hurlingham Club: Was responsible with the migration of the system to their internally owned servers. This required the fixing of a lot of dev-ops related errors throughout the process.",
+                "- TicketTailor: Very complex PHP application, for which I contributed on improving the API with various bug-fixes and new features",
+                "Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
             ]
         },
         {
