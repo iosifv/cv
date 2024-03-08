@@ -1,4 +1,4 @@
-name: Generator
+name: generate-resume
 on:
   push:
     branches:    

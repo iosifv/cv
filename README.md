@@ -1,4 +1,4 @@
-[![Generator](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml/badge.svg)](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml)
+[![generate-resume](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml/badge.svg)](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml)
 [![pages-build-deployment](https://github.com/iosifv/cv/actions/workflows/pages/pages-build-deployment/badge.svg?branch=generated-page)](https://github.com/iosifv/cv/actions/workflows/pages/pages-build-deployment)
 
 # cv
