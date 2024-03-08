@@ -60,5 +60,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH }}
+          github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH_EXPIRES_FEB_2025 }}
           branch: generated-page
