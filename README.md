@@ -1,3 +1,5 @@
+[![Generator](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml/badge.svg)](https://github.com/iosifv/cv/actions/workflows/generate-and-sync.yml)
+
 # cv
 Generator for my CV which is using the [jsonresume](https://jsonresume.org/) node app
 
