@@ -1,4 +1,4 @@
-name: generate-resume
+name: resume-generation
 on:
   push:
     branches:    
