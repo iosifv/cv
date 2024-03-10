@@ -88,7 +88,7 @@
             "highlights": [
                 "I translate the business requirements project features.",
                 "Responsible with both the architecture and granular tasks. While managing a team of 3-4 developers I have provide them with any assistance when they need it.",
-                "↪ Technologies: Node.js, Hardhat, Solidity, AWS, Bash"
+                "↪ Technologies: Node.js, Hardhat, Solidity, AWS"
             ]
         },
         {
@@ -176,6 +176,25 @@
         }
     ],
     "projects": [
+        {
+            "name": "CLI Path",
+            "url": "https://iosifv.github.io/cli-path/",
+            "highlights": [
+                "A simple CLI tool to search paths on google maps.",
+                "The intent is to use to quickly get the grasp of your commute time.",
+                "Built with the intent of using as many technologies as possible for learning purposes.",
+                "↪ Technologies: cli app, Serverless Framework, Monorepo, Auth0, OpenAPI, VHS"
+            ]
+        },
+        {
+            "name": "Casa4 website",
+            "url": "https://casa4.co.uk/",
+            "highlights": [
+                "An overengineered personal website.",
+                "Built mostly for learning purposes.",
+                "↪ Technologies: Hugo, Terraform, Cloudfront, AWS, Github Actions"
+            ]
+        },
         {
             "name": "Terminal ToolBelt",
             "url": "https://github.com/iosifv/terminal-toolbelt",
