@@ -76,7 +76,7 @@
                 "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
                 "The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
                 "TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
-                "=> Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
+                "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
             ]
         },
         {
@@ -89,7 +89,7 @@
                 "I am contributing within business meetings on the IT side of the project.",
                 "Most of the time is spent on translating the business requirements into actual features of the project by managing a small team of 3-4 developers.",
                 "By having a general view of the project, I can help anyone who is stuck at any point.",
-                "Technologies: Node.js, Hardhat, Solidity, AWS, Bash"
+                "➡ Technologies: Node.js, Hardhat, Solidity, AWS, Bash"
             ]
         },
         {
@@ -102,7 +102,7 @@
             "highlights": [
                 "Worked on building the main API of the system. Contributed to all the adjacent applications which constituted the entire ecosystem deployed as serverless functions on AWS with Laravel Vapor. Involved in designing some parts of the ecosystem's architecture.",
                 "Some notable projects were a full reporting application which would create a report from any SQL provided. A system to serve real time data faster to the end client; by saving all the processed relational data into a no-sql database thus providing instant access to the transformed client-friendly set of the data.",
-                "Technologies: PHP 7, PHP 8, Laravel 8, Laravel 9, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                " Technologies: PHP 7, PHP 8, Laravel 8, Laravel 9, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
         {
