@@ -16,7 +16,6 @@
             "countryCode": "UK"
         },
         "profiles": [
-
             {
                 "network": "linkedin",
                 "username": "iosifv",
@@ -71,14 +70,12 @@
             "position": "Software Engineer",
             "website": "https://casa4.co.uk/",
             "startDate": "2018-08-01",
-            "summary": "Contractor for various clients on different projects & extra work on personal projects",
+            "summary": "Contractor for various clients. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.",
             "highlights": [
-                "Contractor for various clients on different projects, mainly focused on pure PHP, Laravel and Node.JS applications with different levels of involvement from developing in a team to the sole actor building the application and setting up the deployment processes.",
-                "Notable Projects/Clients:",
-                "- ElectroRent: Complex tool-renting platform written in Laravel where I worked in a team of about 20 developers.",
-                "- Aliat Optic: Created a complete invoicing application from design to production. Using data from external FTP servers builds beautifully organised information easy to interact with. Built with AWS Lambda functions in Node.js using the Serverless Framework and DynamoDB.",
-                "- The Hurlingham Club: Was responsible with the migration of the system to their internally owned servers. This required the fixing of a lot of dev-ops related errors throughout the process.",
-                "- TicketTailor: Very complex PHP application, for which I contributed on improving the API with various bug-fixes and new features",
+                "- ElectroRent: Collaborated on a team of 20 developers on a complex tool-renting platform written in Laravel.",
+                "- Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
+                "- The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
+                "- TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
                 "Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
             ]
         },
@@ -109,18 +106,6 @@
             ]
         },
         {
-            "name": "Casa4",
-            "position": "Freelance Software Engineer",
-            "website": "https://casa4.co.uk/",
-            "startDate": "2019-10-01",
-            "endDate": "2020-09-01",
-            "summary": "Contractor for various clients on different projects & extra work on personal projects",
-            "highlights": [
-                "Created a complete invoicing application from design to production. This is reading data from XMLs deployed daily on external FTP servers, then joins and transforms them into beautifully organised information easy to interact with. Built with AWS Lambda functions in Node.js using the Serverless Framework and DynamoDB.",
-                "Technologies: Serverless-Framework, Node.js, TypeScript, Laravel, VueJS, AWS, Lambda, EC2, S3, IAM, RDS, DynamoDB, API Gateway"
-            ]
-        },
-        {
             "name": "Skin Analytics",
             "position": "Software Engineer",
             "website": "https://skin-analytics.com/",
@@ -130,19 +115,6 @@
             "highlights": [
                 "Biggest task was a migration from a no-sql database to a relational database which resulted in a 11x speed increase. All this was achieved with 100% transparency to the end user.",
                 "Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
-            ]
-        },
-        {
-            "name": "Casa4",
-            "position": "Freelance PHP Application Developer",
-            "website": "https://casa4.co.uk/",
-            "startDate": "2018-07-01",
-            "endDate": "2018-11-01",
-            "summary": "Worked with various clients on Symfony or Laravel Projects.",
-            "highlights": [
-                "For each client I worked with, I was submitting pull requests in the first day.",
-                "Biggest project was a complex tool-renting platform written in Laravel where I worked in a team of about 20 developers",
-                "Technologies: Laravel 5.6, Symfony, PHP 7.1, MySql, Git, PhpUnit"
             ]
         },
         {
