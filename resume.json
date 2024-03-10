@@ -101,7 +101,7 @@
             "highlights": [
                 "Worked on building the main API of the system. Contributed to all the adjacent applications which constituted the entire ecosystem deployed as serverless functions on AWS with Laravel Vapor. Involved in designing some parts of the ecosystem's architecture.",
                 "Some notable projects were a full reporting application which would create a report from any SQL provided. A system to serve real time data faster to the end client; by saving all the processed relational data into a no-sql database thus providing instant access to the transformed client-friendly set of the data.",
-                "↪ Technologies: PHP 7, PHP 8, Laravel 8, Laravel 9, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                "↪ Technologies: PHP, Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
         {
@@ -127,7 +127,7 @@
                 "Developed & maintained nationwide educational platforms. Designed and integrated various APIs.",
                 "We built a complete financial management application.",
                 "Managed all our DigitalOcean droplets with a CI setup.",
-                "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, PHP 5.6, PHP 7.1, RESTful APIs, MySql, Git, CLI, VueJS, PhpUnit."
+                "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, PHP, RESTful APIs, MySql, Git, CLI, VueJS, PhpUnit."
             ]
         },
         {
@@ -247,7 +247,8 @@
                 "Assembly",
                 "x86 processor",
                 "Electronics",
-                "Physics"
+                "Physics",
+                "Mathematics"
             ]
         }
     ],
