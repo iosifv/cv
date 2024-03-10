@@ -72,11 +72,11 @@
             "startDate": "2018-08-01",
             "summary": "Contractor for various clients. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.",
             "highlights": [
-                "- ElectroRent: Collaborated on a team of 20 developers on a complex tool-renting platform written in Laravel.",
-                "- Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
-                "- The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
-                "- TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
-                "Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
+                "ElectroRent: Collaborated on a team of 20 developers on a complex tool-renting platform written in Laravel.",
+                "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
+                "The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
+                "TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
+                "=> Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
             ]
         },
         {
