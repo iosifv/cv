@@ -204,13 +204,6 @@
             ]
         },
         {
-            "name": "Silence",
-            "url": "https://github.com/iosifv/silence",
-            "highlights": [
-                "Open source tool for safely backing up ssh keys in a git repository"
-            ]
-        },
-        {
             "name": "iosifv.com",
             "url": "https://github.com/iosifv/iosifv-copy",
             "highlights": [
