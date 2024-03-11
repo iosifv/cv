@@ -110,7 +110,7 @@
             "website": "https://skin-analytics.com/",
             "startDate": "2018-10-01",
             "endDate": "2019-10-01",
-            "summary": "Designing and developing our main AI Skin Analytics applications and keeping an eye on the AWS infrastructure.",
+            "summary": "Designing and developing our main applications and keeping an eye on the AWS infrastructure.",
             "highlights": [
                 "Biggest task was a migration from a no-sql database to a relational database which resulted in a 11x speed increase. All this was achieved with 100% transparency to the end user.",
                 "↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
