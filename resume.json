@@ -180,9 +180,7 @@
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "highlights": [
-                "A simple CLI tool to search paths on google maps.",
-                "The intent is to use to quickly get the grasp of your commute time.",
-                "Built with the intent of using as many technologies as possible for learning purposes.",
+                "Built for learning purposes, this is a simple CLI tool to search paths on google maps. The intent is to use to quickly get the grasp of your commute time.",
                 "↪ Technologies: cli app, Serverless Framework, Monorepo, Auth0, OpenAPI, VHS"
             ]
         },
@@ -190,17 +188,8 @@
             "name": "Casa4 website",
             "url": "https://casa4.co.uk/",
             "highlights": [
-                "An overengineered personal website.",
-                "Built mostly for learning purposes.",
+                "An overengineered personal website built mostly for learning purposes.",
                 "↪ Technologies: Hugo, Terraform, Cloudfront, AWS, Github Actions"
-            ]
-        },
-        {
-            "name": "Terminal ToolBelt",
-            "url": "https://github.com/iosifv/terminal-toolbelt",
-            "highlights": [
-                "Open source collection of aliases and bash functions which I use.",
-                "Organised in something which resembles a CLI Framework."
             ]
         },
         {
