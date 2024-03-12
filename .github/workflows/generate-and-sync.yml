@@ -58,7 +58,6 @@ jobs:
           
           git commit -m "Added generated file changes"
 
-          
       - name: Push changes
         uses: ad-m/github-push-action@master
         # https://github.com/marketplace/actions/github-push
