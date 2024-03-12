@@ -62,5 +62,5 @@ jobs:
         uses: ad-m/github-push-action@master
         # https://github.com/marketplace/actions/github-push
         with:
-          github_token: ${{ secrets.GHA_TOKEN_FOR_PUSH_EXPIRES_FEB_2025 }}
+          github_token: ${{ secrets.EVERYTHING }}
           branch: generated-page
