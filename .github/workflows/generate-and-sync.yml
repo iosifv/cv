@@ -52,16 +52,17 @@ jobs:
           
           cp temporary/index.html docs/index.html
           cp temporary/resume.pdf docs/resume.pdf
-          cp temporary/resume.pdf docs/Senior Backend Developer - Iosif Vigh.pdf
+          cp temporary/resume.pdf docs/Sr-Backend-Developer---Iosif-V.pdf
           
           git add docs/index.html
           git add docs/resume.pdf
-          git add docs/Senior Backend Developer - Iosif Vigh.pdf
+          git add docs/Sr-Backend-Developer---Iosif-V.pdf
 
           # Copy the download html file
           git checkout main -- download.html
           cp download.html docs/download.html
           git add docs/download.html
+          git add docs/dl.html
           
           git commit -m "Added generated file changes"
 
