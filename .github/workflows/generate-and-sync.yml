@@ -52,13 +52,14 @@ jobs:
           
           cp temporary/index.html docs/index.html
           cp temporary/resume.pdf docs/resume.pdf
-          # cp download.html docs/download.html
           
           git add docs/index.html
           git add docs/resume.pdf
 
+          # Copy the download html file
           git checkout main -- download.html
-          git add download.html
+          cp download.html docs/download.html
+          git add docs/download.html
           
           git commit -m "Added generated file changes"
 
