@@ -56,15 +56,18 @@ jobs:
           
           git add docs/index.html
           git add docs/resume.pdf
-          # git add docs/download.html
+
+          git checkout main -- download.html
+          git add download.html
           
           git commit -m "Added generated file changes"
 
-      - name: Fetch file from main branch
-        run: |
-          git fetch origin main:main --force
-          git show main:download.html > docs/download.html
-          git diff 
+      # - name: Fetch file from main branch
+      #   run: |
+      #     git checkout main -- download.html
+      #     git add download.html
+          
+      #     git commit -m "Added download file"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
