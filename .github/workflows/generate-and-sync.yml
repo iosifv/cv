@@ -61,6 +61,7 @@ jobs:
           # Copy the download html file
           git checkout main -- download.html
           cp download.html docs/download.html
+          cp download.html docs/dl.html
           git add docs/download.html
           git add docs/dl.html
           
