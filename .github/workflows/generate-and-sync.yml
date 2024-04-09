@@ -52,13 +52,19 @@ jobs:
           
           cp temporary/index.html docs/index.html
           cp temporary/resume.pdf docs/resume.pdf
-          cp download.html docs/download.html
+          # cp download.html docs/download.html
           
           git add docs/index.html
           git add docs/resume.pdf
-          git add docs/download.html
+          # git add docs/download.html
           
           git commit -m "Added generated file changes"
+
+      - name: Fetch file from main branch
+        run: |
+          git fetch origin main:main --force
+          git show main:download.html > docs/download.html
+          git diff 
 
       - name: Push changes
         uses: ad-m/github-push-action@master
