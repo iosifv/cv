@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "+44.759.713.7739",
         "website": "https://iosifv.com",
-        "summary": "Hey there I'm Iosif, a senior Software Engineer with experience in creating complete projects from start to finish in Node.js and PHP. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always willing to learn new things, so these days I spend my evenings working NextJS and Vercel with the T3 Stack.",
+        "summary": "Hey there I'm Iosif, a senior Software Engineer with experience in creating complete projects from start to production in Node.js and Laravel. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always learning new things.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -67,7 +67,9 @@
             "name": "Currently learning",
             "keywords": [
                 "Java",
-                "NextJS"
+                "NextJS",
+                "T3 Stack",
+                "Vercel"
             ]
         }
     ],
