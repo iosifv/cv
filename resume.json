@@ -167,8 +167,7 @@
             "summary": "Family business dealing with mining crypto-currencies.",
             "highlights": [
                 "Worked on Business model, Hardware setup, Software & security optimization/tweaks/updates, Performance fine tuning, Trading generated assets.",
-                "Learned a lot about managing a larger than usual number of computers and hardware components.",
-                "Built an open-source watchdog mechanism for certain types of graphic cards (https://github.com/iosifv/amd-vega-startup-scripts)."
+                "Built an open-source watchdog mechanism: github.com/iosifv/amd-vega-startup-scripts"
             ]
         },
         {
