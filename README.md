@@ -36,3 +36,21 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 - [JSON Schema - resume.sample](https://github.com/jsonresume/resume-schema/blob/master/sample.resume.json)
 - [JSON Schema - oficial schema](https://github.com/jsonresume/resume-schema/blob/master/schema.json)
 - [JSON Schema - thomasdavis](https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105)
+
+
+## Troubleshooting
+- If you get an error like this:
+```
+Run ad-m/github-push-action@master
+Push to branch generated-page
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/iosifv/cv.git/'
+Error: Invalid exit code: 128
+    at ChildProcess.<anonymous> (/home/runner/work/_actions/ad-m/github-push-action/master/start.js:30:21)
+    at ChildProcess.emit (node:events:519:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5) {
+  code: 128
+}
+```
+
