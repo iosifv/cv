@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "+44.759.713.7739",
         "website": "https://iosifv.com",
-        "summary": "Hey there I'm Iosif, a senior Software Engineer with experience in creating complete projects from start to finish in Node.js and PHP. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always willing to learn new things, so these days I spend my evenings working NextJS and Vercel with the T3 Stack (previously I tried Solidity and Hardhat for creating Blockchain smart contracts).",
+        "summary": "Hey there I'm Iosif, a senior Software Engineer with experience in creating complete projects from start to finish in Node.js and PHP. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always willing to learn new things, so these days I spend my evenings working NextJS and Vercel with the T3 Stack.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -50,8 +50,7 @@
                 "Laravel",
                 "Express",
                 "Serverless",
-                "Hardhat",
-                "NextJS"
+                "Hardhat"
             ]
         },
         {
@@ -62,6 +61,13 @@
                 "CI / CD",
                 "Docker",
                 "Shell Scripting"
+            ]
+        },
+        {
+            "name": "Currently learning",
+            "keywords": [
+                "Java",
+                "NextJS"
             ]
         }
     ],
@@ -77,7 +83,7 @@
                 "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
                 "The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
                 "TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
-                "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NuxtJS, CLI, Bash"
+                "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
             ]
         },
         {
