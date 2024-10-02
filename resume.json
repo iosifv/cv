@@ -186,7 +186,7 @@
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "highlights": [
-                "Built for learning purposes, this is a simple CLI tool to search paths on google maps. The intent is to use to quickly get the grasp of your commute time.",
+                "Built for learning purposes, this is a simple CLI tool to search paths on google maps.",
                 "↪ Technologies: cli app, Serverless Framework, Monorepo, Auth0, OpenAPI, VHS"
             ]
         },
