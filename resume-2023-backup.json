@@ -1,0 +1,276 @@
+{
+    "meta": {
+        "lastModified": "2024-03-12",
+        "theme": "stackoverflow",
+        "tagline": "Web developer | Creative thinker | Solution creator | Change maker"
+    },
+    "basics": {
+        "name": "Iosif V.",
+        "label": "Software Engineer",
+        "email": "hire-me@iosifv.com",
+        "phone": "+44.759.713.7739",
+        "website": "https://iosifv.com",
+        "summary": "Hey there I'm Iosif, a senior Software Engineer with experience in creating complete projects from start to production in Node.js and Laravel. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always learning new things.",
+        "location": {
+            "city": "London",
+            "countryCode": "UK"
+        },
+        "profiles": [
+            {
+                "network": "linkedin",
+                "username": "iosifv",
+                "url": "https://www.linkedin.com/in/iosifv/"
+            },
+            {
+                "network": "github",
+                "username": "iosifv",
+                "url": "https://github.com/iosifv"
+            },
+            {
+                "network": "stack-overflow",
+                "username": "iosifv",
+                "url": "https://stackoverflow.com/users/3219816/iosifv"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Languages",
+            "keywords": [
+                "Node.js",
+                "Typescript",
+                "PHP",
+                "Solidity",
+                "bash"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                "Laravel",
+                "Express",
+                "Serverless",
+                "Hardhat"
+            ]
+        },
+        {
+            "name": "Admin",
+            "keywords": [
+                "AWS",
+                "Terraform",
+                "CI / CD",
+                "Docker",
+                "Shell Scripting"
+            ]
+        },
+        {
+            "name": "Currently learning",
+            "keywords": [
+                "Java",
+                "NextJS",
+                "T3 Stack",
+                "Vercel"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "name": "Casa4",
+            "position": "Software Engineer",
+            "website": "https://casa4.co.uk/",
+            "startDate": "2018-08-01",
+            "summary": "Contractor for various clients. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.",
+            "highlights": [
+                "ElectroRent: Collaborated on a team of 20 developers on a complex tool-renting platform written in Laravel.",
+                "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
+                "The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dependancy and dev-ops issues.",
+                "TicketTailor: Enhanced the API of a sophisticated PHP application with both bugfixes and new features.",
+                "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
+            ]
+        },
+        {
+            "name": "Artetra",
+            "position": "Information Technology Advisor",
+            "website": "https://artetra.io/",
+            "startDate": "2022-03-01",
+            "summary": "Startup that works towards bringing NFT's into online virtual galleries.",
+            "highlights": [
+                "I work part time to translate the business requirements into project features.",
+                "Responsible with both the architecture and granular tasks. While managing a team of 3-4 developers I have to provide them with any assistance when they need it.",
+                "↪ Technologies: Node.js, Hardhat, Solidity, AWS"
+            ]
+        },
+        {
+            "name": "True Compliance",
+            "position": "Software Engineer",
+            "website": "https://truecompliance.co.uk/",
+            "startDate": "2020-10-01",
+            "endDate": "2022-08-01",
+            "summary": "Cloud Based Compliance Management System.",
+            "highlights": [
+                "Worked on building the main API of the system. Contributed to all the adjacent applications which constituted the entire ecosystem deployed as serverless functions on AWS with Laravel Vapor. Involved in designing some parts of the ecosystem's architecture.",
+                "Some notable projects were a full reporting application which would create a report from any SQL provided. A system to serve real time data faster to the end client; by saving all the processed relational data into a no-sql database thus providing instant access to the transformed client-friendly set of the data.",
+                "↪ Technologies: PHP, Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+            ]
+        },
+        {
+            "name": "Skin Analytics",
+            "position": "Software Engineer",
+            "website": "https://skin-analytics.com/",
+            "startDate": "2018-10-01",
+            "endDate": "2019-10-01",
+            "summary": "Designing and developing our main applications and keeping an eye on the AWS infrastructure.",
+            "highlights": [
+                "Biggest task was a migration from a no-sql database to a relational database which resulted in a 11x speed increase. All this was achieved with 100% transparency to the end user.",
+                "↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
+            ]
+        },
+        {
+            "name": "Woooba",
+            "position": "PHP Application Developer / Dev-Ops",
+            "website": "https://www.woooba.io/",
+            "startDate": "2017-02-01",
+            "endDate": "2018-06-01",
+            "summary": "Designing, developing & supporting client applications.",
+            "highlights": [
+                "Developed & maintained nationwide educational platforms. Designed and integrated various APIs.",
+                "We built a complete financial management application.",
+                "Managed all our DigitalOcean droplets with a CI setup.",
+                "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, PHP, RESTful APIs, MySql, Git, CLI, VueJS, PhpUnit."
+            ]
+        },
+        {
+            "name": "iQU Group",
+            "position": "PHP Application Developer",
+            "website": "https://iqu.com/",
+            "startDate": "2015-11-01",
+            "endDate": "2016-11-01",
+            "summary": "Marketing solutions for game developers.",
+            "highlights": [
+                "Created complete APIs from start to end as well as libraries which were used by my colleagues.",
+                "Another smaller project was built with Java and PipelineDB.",
+                "↪ Technologies: PHP, Laravel, Symfony, API, MySQL, Git, Docker, CLI, PhpUnit, AngularJS, Java"
+            ]
+        },
+        {
+            "name": "Project 89109",
+            "position": "PHP Application Developer",
+            "startDate": "2014-10-01",
+            "endDate": "2015-11-01",
+            "summary": "Online adult dating services.",
+            "highlights": [
+                "↪ Technologies: PHP, API, MySQL, CLI, Git, JS, jQuery."
+            ]
+        },
+        {
+            "name": "Hidden Hash (Personal Venture)",
+            "position": "Hardware Engineer / Dev-Ops",
+            "startDate": "2017-11-01",
+            "summary": "Family business dealing with mining crypto-currencies.",
+            "highlights": [
+                "Worked on Business model, Hardware setup, Software & security optimization/tweaks/updates, Performance fine tuning, Trading generated assets.",
+                "Built an open-source watchdog mechanism: github.com/iosifv/amd-vega-startup-scripts"
+            ]
+        },
+        {
+            "name": "Saya Studio (Personal Venture)",
+            "position": "Professional Photographer",
+            "startDate": "2005-05-01",
+            "endDate": "2014-12-01",
+            "summary": "Photography studio focusing mainly on weddings.",
+            "highlights": [
+                "Worked on Client handling, Accounting, Photographing, Retouching, Graphic design, Web-design."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "CLI Path",
+            "url": "https://iosifv.github.io/cli-path/",
+            "highlights": [
+                "Built for learning purposes, this is a simple CLI tool to search paths on google maps.",
+                "↪ Technologies: cli app, Serverless Framework, Monorepo, Auth0, OpenAPI, VHS"
+            ]
+        },
+        {
+            "name": "Casa4 website",
+            "url": "https://casa4.co.uk/",
+            "highlights": [
+                "An overengineered personal website built mostly for learning purposes.",
+                "↪ Technologies: Hugo, Terraform, Cloudfront, AWS, Github Actions"
+            ]
+        },
+        {
+            "name": "iosifv.com",
+            "url": "https://github.com/iosifv/iosifv-copy",
+            "highlights": [
+                "A copy of the repository of my website.",
+                "Backend management system written in Laravel. Includes a photo gallery and a quotes collection."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Technical University of Cluj-Napoca",
+            "area": "Management and Business Engineering",
+            "studyType": "Masters",
+            "startDate": "2010-01-01",
+            "endDate": "2012-01-01",
+            "courses": [
+                "General management theories"
+            ]
+        },
+        {
+            "institution": "Technical University of Cluj-Napoca",
+            "area": "Computer Science",
+            "studyType": "Masters",
+            "startDate": "2004-01-01",
+            "endDate": "2009-01-01",
+            "courses": [
+                "C++",
+                "Java",
+                ".NET",
+                "SQL",
+                "Lisp",
+                "Prolog",
+                "Xilinx",
+                "Assembly",
+                "x86 processor",
+                "Electronics",
+                "Physics",
+                "Mathematics"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        },
+        {
+            "language": "Romanian",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Hungarian",
+            "fluency": "Beginner"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Hobbies",
+            "keywords": [
+                "Chess",
+                "HiFi Music",
+                "Motorcycles",
+                "Photography"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Publicly available on LinkedIn",
+            "reference": "https://www.linkedin.com/in/iosifv/"
+        }
+    ]
+}
