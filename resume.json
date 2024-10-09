@@ -80,9 +80,9 @@
             "startDate": "2018-08-01",
             "summary": "Contractor for various clients through my own LTD. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.",
             "highlights": [
-                "ElectroRent: I contributed with Laravel code to fix bugs and add new features for a complex tool-renting platform.",
-                "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB.",
-                "The Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dev-ops issues.",
+                "ElectroRent: Wrote Laravel code to fix bugs and to add new features for a tool-renting platform.",
+                "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bugfixes.",
+                "Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dev-ops issues.",
                 "TicketTailor: Enhanced the API of a large PHP application with both bugfixes and new features.",
                 "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
             ]
@@ -107,8 +107,8 @@
             "endDate": "2022-08-01",
             "summary": "Cloud Based Compliance Management System.",
             "highlights": [
-                "Built the main API of the system. Contributed to all the adjacent applications which constituted the entire ecosystem deployed as serverless functions on AWS with Laravel Vapor. Contributed in designing the ecosystem's architecture.",
-                "Some notable projects assigned solely to me: A reporting app. which would create a report from any SQL provided; A bespoke real time caching system which saved processed relational data into a no-sql database.",
+                "Built the main API of the system and contributed in designing the ecosystem's architecture. Contributed to all the adjacent applications which were deployed as serverless functions on AWS with Laravel Vapor.",
+                "Notable projects assigned solely to me: A reporting app. which would create a report from any SQL provided; A bespoke real time caching system which saved processed relational data into a no-sql db.",
                 "↪ Technologies: PHP, Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
@@ -144,14 +144,14 @@
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "highlights": [
-                "Built for learning purposes, this is a simple CLI tool to search paths on google maps (Serverless Framework, Auth0, OpenAPI, VHS)"
+                "Simple CLI tool to search paths on google maps (Serverless Framework, Auth0, OpenAPI, VHS)"
             ]
         },
         {
             "name": "Casa4 website",
             "url": "https://casa4.co.uk/",
             "highlights": [
-                "An overengineered personal website built mostly for learning purposes (Hugo, Terraform, Cloudfront, AWS, GHA)"
+                "An overengineered personal website built for learning purposes (Hugo, Terraform, Cloudfront, AWS, GHA)"
             ]
         }
     ],
