@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Iosif V.</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-  <style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <style>
   /********************************************
 * 	reset from
 * 	http://meyerweb.com/eric/tools/css/reset/
@@ -190,10 +189,6 @@ em {
   color: #757575;
 }
 
-blockquote {
-  margin-bottom: 1em;
-}
-
 strong {
   font-weight: 700;
 }
@@ -266,10 +261,13 @@ section .location {
   border-radius: 4px;
 }
 
+.section.summary header {
+  margin-top: 1rem;
+}
+
 .main-summary {
   background: #f1f8ff;
   padding: 1.2em 1em;
-  margin-top: 1rem;
 }
 
 .main-summary p {
@@ -569,6 +567,7 @@ section .location {
 
 #references .item {
   padding-left: 0.5em;
+  margin-bottom: 1em;
   border-left: 5px solid #ff6d1f;
 }
 
@@ -652,6 +651,12 @@ section .location {
   #profiles a:not(.hide-href-print)::after{
     content: " (" attr(href) ") ";
   }
+  #profiles .url .show-only-url-print {
+    display: none;
+  }
+  #profiles .url a::after {
+    content: attr(href);
+  }
   #resume {
     margin: 0.1em;
     padding: 0.1em;
@@ -664,6 +669,9 @@ section .location {
   }
   .item-count {
     display: none;
+  }
+  .company a {
+    color: #40484f;
   }
   .company::before,
   .institution::before,
@@ -686,7 +694,8 @@ section .location {
     padding-bottom: 0.15rem;
   }
   .section > section > section {
-    margin: 0 0 1em 0;
+    border-bottom: 1px solid #fdfdfd;
+    margin: .5em 0;
   }
   .section > section > section:last-of-type {
     margin: 0;
@@ -714,7 +723,7 @@ section .location {
   ul.keywords li::after,
   ul.courses li::after {
     padding: 0 0 0 0.1rem;
-    content: " |";
+    content: ", ";
   }
   ul.keywords::before,
   ul.courses::before {
@@ -722,14 +731,28 @@ section .location {
     font-weight: 600;
   }
   #skills .item {
-    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
     padding: 0;
+  }
+  #skills .level {
+    margin: 0.1rem 0;
+    font-weight: 400;
+  }
+  #skills .keywords {
+    font-size: 0.9rem;
+    margin: 0;
   }
   .highlights {
     margin: 0.5em 0 0 0;
   }
+  .highlights > li > p {
+    margin-bottom: 0.3em;
+  }
   ul.keywords::before {
-    content: "Skills acquired: ";
+    content: "Skills: ";
+    font-size: 1rem;
   }
   #skills .keywords::before {
     content: none;
@@ -740,6 +763,12 @@ section .location {
   }
   ul.courses::before {
     content: "Major courses: ";
+    font-size: 1rem;
+  }
+  ul.keywords li,
+  ul.courses li {
+    font-size: 1rem;
+    line-height: inherit;
   }
   ul.keywords li:last-of-type::after,
   ul.courses li:last-of-type::after {
@@ -759,7 +788,7 @@ section .location {
     display: block;
     opacity: 1 !important;
   }
-  .fa-map-marker-alt:before {
+  .fa-location-dot:before {
     padding-left: 0.1em;
   }
 }
@@ -778,21 +807,21 @@ section .location {
     
     		<span class="location">
     			<span class="city">London,</span>
-    			<span class="countryCode">UK</span>
+    			<span class="countryCode">(UK)</span>
     		</span>
     
     
     		<div id="contact">
     			<div class="website">
-    				<span class="fas fa-external-link-alt"></span>
+    				<span class="fa-solid fa-up-right-from-square"></span>
     				<a class="hide-href-print" target="_blank" target="_blank" href="https://iosifv.com">https://iosifv.com</a>
     			</div>
     			<div class="email">
-    				<span class="far fa-envelope"></span>
+    				<span class="fa-regular fa-envelope"></span>
     				<a class="hide-href-print" href="mailto:hire-me@iosifv.com">hire-me@iosifv.com</a>
     			</div>
     			<div class="phone">
-    				<span class="fas fa-mobile-alt"></span>
+    				<span class="fa-solid fa-mobile-screen-button"></span>
     				<a class="hide-href-print" href="tel:+44.759.713.7739">+44.759.713.7739</a>
     			</div>
     		</div>
@@ -800,88 +829,91 @@ section .location {
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
-    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="fa-brands fa-linkedin linkedin social"></span>
     					<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/iosifv/">iosifv</a>
+    						<a target="_blank" href="https://www.linkedin.com/in/iosifv/"><span class="show-only-url-print">iosifv</span></a>
     					</span>
     				</div>
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fab fa-github github social"></span>
+    					<span class="fa-brands fa-github github social"></span>
     					<span class="url">
-    						<a target="_blank" href="https://github.com/iosifv">iosifv</a>
+    						<a target="_blank" href="https://github.com/iosifv"><span class="show-only-url-print">iosifv</span></a>
     					</span>
     				</div>
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fab fa-stack-overflow stack-overflow social"></span>
+    					<span class="fa-brands fa-stack-overflow stack-overflow social"></span>
     					<span class="url">
-    						<a target="_blank" href="https://stackoverflow.com/users/3219816/iosifv">iosifv</a>
+    						<a target="_blank" href="https://stackoverflow.com/users/3219816/iosifv"><span class="show-only-url-print">iosifv</span></a>
     					</span>
     				</div>
     			</div>
     		</div>
     	</header>
     
-    	<section class="section">
+    	<section class="section summary">
+        <header>
+          <h2 class="section-title">summary</h2>
+        </header>
     		<section class="main-summary">
     			<div><p><p>I am a Senior Software Engineer with experience in creating complete projects from scratch to production in Node.js and Laravel. I write code as clean as possible so that the next dev will be happy to maintain it and the junior will quickly grasp it. Curious by nature, I'm always learning new things.</p></p></div>
     		</section>
     	</section>
     
     <section class="section">
-    	<header>
-    		<h2 class='section-title'>Skills</h2>
-    	</header>
-    	<section id="skills">
-    		<div class="item">
-    			<h3 class="name">
-    				Languages
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Node.js</li>
-    				<li>Typescript</li>
-    				<li>PHP</li>
-    				<li>Solidity</li>
-    				<li>bash</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Frameworks
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Laravel</li>
-    				<li>Express</li>
-    				<li>Serverless</li>
-    				<li>Hardhat</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Admin
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>AWS</li>
-    				<li>Terraform</li>
-    				<li>CI / CD</li>
-    				<li>Docker</li>
-    				<li>Shell Scripting</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Currently learning
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Java</li>
-    				<li>NextJS</li>
-    				<li>T3 Stack</li>
-    			</ul>
-    		</div>
-    	</section>
+      <header>
+        <h2 class='section-title'>Skills</h2>
+      </header>
+      <section id="skills">
+        <div class="item">
+          <h3 class="name">
+            Languages
+          </h3>
+          <ul class="keywords">
+            <li>Node.js</li>
+            <li>Typescript</li>
+            <li>PHP</li>
+            <li>Solidity</li>
+            <li>bash</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Frameworks
+          </h3>
+          <ul class="keywords">
+            <li>Laravel</li>
+            <li>Express</li>
+            <li>Serverless</li>
+            <li>Hardhat</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Admin
+          </h3>
+          <ul class="keywords">
+            <li>AWS</li>
+            <li>Terraform</li>
+            <li>CI / CD</li>
+            <li>Docker</li>
+            <li>Shell Scripting</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Currently learning
+          </h3>
+          <ul class="keywords">
+            <li>Java</li>
+            <li>NextJS</li>
+            <li>T3 Stack</li>
+          </ul>
+        </div>
+      </section>
     </section>
     <section class="section">
       <header>
@@ -890,63 +922,66 @@ section .location {
     
       <section id="work">
         <section class="work-item">
+            <label for="work-item-0"></label>
     
-          <label for="work-item-0"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Aug 2018</span>
-              <span class="endDate">- Current</span>
-            </div>
-            <div class="position">Contractor Software Engineer</div>
-            <div class="company">Casa4 (own LTD)</div>
-          </header>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Aug 2018</span>
+                <span class="endDate">- Current</span>
+              </div>
+              <div class="position">Contractor Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://casa4.co.uk/"></a>
+                </span>
+            </header>
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Contractor for various clients through my own LTD. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.</p></p></div>
             <ul class="highlights">
               <li><p><p>ElectroRent: Wrote Laravel code to fix bugs and to add new features for a tool-renting platform.</p></p></li>
               <li><p><p>Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bugfixes.</p></p></li>
-              <li><p><p>Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dev-ops issues.</p></p></li>
+              <li><p><p>Hurlingham Club: Managed system migration to internal servers, resolving a wide range of Dev-Ops issues.</p></p></li>
               <li><p><p>TicketTailor: Enhanced the API of a large PHP application with both bugfixes and new features.</p></p></li>
-              <li><p><p>↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash</p></p></li>
+              <li><p><p>↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash</p></p></li>
             </ul>
           </div>
         </section>
         <section class="work-item">
+            <label for="work-item-1"></label>
     
-          <label for="work-item-1"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Mar 2022</span>
-              <span class="endDate">- Current</span>
-            </div>
-            <div class="position">Information Technology Advisor (part time)</div>
-            <div class="company">Artetra</div>
-          </header>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Mar 2022</span>
+                <span class="endDate">- Oct 2024</span>
+              </div>
+              <div class="position">Information Technology Advisor (part time)</div>
+                <span class="company">
+                  <a target="_blank" href="https://artetra.io/"></a>
+                </span>
+            </header>
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Startup that works towards bringing NFT's into online virtual galleries.</p></p></div>
             <ul class="highlights">
               <li><p><p>As an acting CTO, I work to translate the business requirements into project features</p></p></li>
               <li><p><p>Responsible with the application architecture and sometimes with smaller granular tasks. I'm managing a team of 3-4 developers and I have to provide them with any assistance when they need it.</p></p></li>
-              <li><p><p>↪ Technologies: Node.js, Hardhat, Solidity, AWS</p></p></li>
+              <li><p><p>↪ Technologies: Node.js, Hardhat, Solidity, React, AWS</p></p></li>
             </ul>
           </div>
         </section>
         <section class="work-item">
+            <label for="work-item-2"></label>
     
-          <label for="work-item-2"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Oct 2020</span>
-              <span class="endDate">- Aug 2022</span>
-            </div>
-            <div class="position">Software Engineer</div>
-            <div class="company">True Compliance</div>
-          </header>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2020</span>
+                <span class="endDate">- Aug 2022</span>
+              </div>
+              <div class="position">Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://truecompliance.co.uk/"></a>
+                </span>
+            </header>
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Cloud Based Compliance Management System.</p></p></div>
@@ -958,17 +993,18 @@ section .location {
           </div>
         </section>
         <section class="work-item">
+            <label for="work-item-3"></label>
     
-          <label for="work-item-3"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Oct 2018</span>
-              <span class="endDate">- Oct 2019</span>
-            </div>
-            <div class="position">Software Engineer</div>
-            <div class="company">Skin Analytics</div>
-          </header>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Oct 2018</span>
+                <span class="endDate">- Oct 2019</span>
+              </div>
+              <div class="position">Software Engineer</div>
+                <span class="company">
+                  <a target="_blank" href="https://skin-analytics.com/"></a>
+                </span>
+            </header>
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>Designing and developing our main applications and maintaining the AWS infrastructure.</p></p></div>
@@ -979,17 +1015,18 @@ section .location {
           </div>
         </section>
         <section class="work-item">
+            <label for="work-item-4"></label>
     
-          <label for="work-item-4"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Feb 2017</span>
-              <span class="endDate">- Jun 2018</span>
-            </div>
-            <div class="position">PHP Application Developer / Dev-Ops</div>
-            <div class="company">Woooba</div>
-          </header>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Feb 2017</span>
+                <span class="endDate">- Jun 2018</span>
+              </div>
+              <div class="position">PHP Application Developer / Dev-Ops</div>
+                <span class="company">
+                  <a target="_blank" href="https://www.woooba.io/"></a>
+                </span>
+            </header>
     
            <div class="item" id="work-item">
             <div class="summary"><p><p>The only Backend Engineer in the company, I was designing, developing &amp; supporting client applications.</p></p></div>
@@ -1014,7 +1051,7 @@ section .location {
             <div class="position">CLI Path</div>
           </header>
           <span class="website">
-            <span class="fas fa-external-link-alt"></span>
+            <span class="fa-solid fa-up-right-from-square"></span>
             <a target="_blank" href="https://iosifv.github.io/cli-path/">https://iosifv.github.io/cli-path/</a>
           </span>
           <div class="item">
@@ -1029,7 +1066,7 @@ section .location {
             <div class="position">Casa4 website</div>
           </header>
           <span class="website">
-            <span class="fas fa-external-link-alt"></span>
+            <span class="fa-solid fa-up-right-from-square"></span>
             <a target="_blank" href="https://casa4.co.uk/">https://casa4.co.uk/</a>
           </span>
           <div class="item">
@@ -1118,6 +1155,7 @@ section .location {
             <li>HiFi Music</li>
             <li>Motorcycles</li>
             <li>Photography</li>
+            <li>Boxing</li>
           </ul>
         </div>
       </section>
