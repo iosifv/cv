@@ -84,7 +84,7 @@
                 "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bugfixes.",
                 "Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dev-ops issues.",
                 "TicketTailor: Enhanced the API of a large PHP application with both bugfixes and new features.",
-                "↪ Technologies: Laravel, Node.js, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
+                "↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
             ]
         },
         {
@@ -92,11 +92,12 @@
             "position": "Information Technology Advisor (part time)",
             "website": "https://artetra.io/",
             "startDate": "2022-03-01",
+            "endDate": "2024-10-01",
             "summary": "Startup that works towards bringing NFT's into online virtual galleries.",
             "highlights": [
                 "As an acting CTO, I work to translate the business requirements into project features",
                 "Responsible with the application architecture and sometimes with smaller granular tasks. I'm managing a team of 3-4 developers and I have to provide them with any assistance when they need it.",
-                "↪ Technologies: Node.js, Hardhat, Solidity, AWS"
+                "↪ Technologies: Node.js, Hardhat, Solidity, React, AWS"
             ]
         },
         {
@@ -178,7 +179,8 @@
                 "Chess",
                 "HiFi Music",
                 "Motorcycles",
-                "Photography"
+                "Photography",
+                "Boxing"
             ]
         }
     ]
