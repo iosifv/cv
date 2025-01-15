@@ -82,7 +82,7 @@
             "highlights": [
                 "ElectroRent: Wrote Laravel code to fix bugs and to add new features for a tool-renting platform.",
                 "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bugfixes.",
-                "Hurlingham Club: Managed system migration to internal servers, resolving a wide range of dev-ops issues.",
+                "Hurlingham Club: Managed system migration to internal servers, resolving a wide range of Dev-Ops issues.",
                 "TicketTailor: Enhanced the API of a large PHP application with both bugfixes and new features.",
                 "↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
             ]
