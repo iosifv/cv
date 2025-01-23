@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "1.0.0",
-  "description": "Generator for my CV which is using the [jsonresume](https://jsonresume.org/) node app",
+  "description": "Generator for my CV which is using the [jsonresume](https://jsonresume.org/) node app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
