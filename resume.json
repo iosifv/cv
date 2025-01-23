@@ -78,26 +78,14 @@
             "position": "Contractor Software Engineer",
             "website": "https://casa4.co.uk/",
             "startDate": "2018-08-01",
-            "summary": "Contractor for various clients through my own LTD. Worked on diverse projects, specializing in PHP, Laravel, and Node.js. Involved both in team-based development and solo application building from design to deployment.",
+            "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment.",
             "highlights": [
-                "ElectroRent: Wrote Laravel code to fix bugs and to add new features for a tool-renting platform.",
-                "Aliat Optic: Designed and produced an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bugfixes.",
-                "Hurlingham Club: Managed system migration to internal servers, resolving a wide range of Dev-Ops issues.",
-                "TicketTailor: Enhanced the API of a large PHP application with both bugfixes and new features.",
+                "Artetra: As an acting CTO, I translated business requirements into project features. I was responsible for the application architecture and occasionally handled smaller tasks. I managed a team of 3-4 developers and provided them with necessary assistance.",
+                "ElectroRent: Developed and maintained Laravel code to fix bugs and add new features for a tool-renting platform.",
+                "Aliat Optic: Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bug fixes.",
+                "Hurlingham Club: Led the migration of systems to internal servers, resolving various DevOps issues.",
+                "TicketTailor: Improved the API of a large ticketing application by fixing bugs and adding new features.",
                 "↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
-            ]
-        },
-        {
-            "name": "Artetra",
-            "position": "Information Technology Advisor (part time)",
-            "website": "https://artetra.io/",
-            "startDate": "2022-03-01",
-            "endDate": "2024-10-01",
-            "summary": "Startup that works towards bringing NFT's into online virtual galleries.",
-            "highlights": [
-                "As an acting CTO, I work to translate the business requirements into project features",
-                "Responsible with the application architecture and sometimes with smaller granular tasks. I'm managing a team of 3-4 developers and I have to provide them with any assistance when they need it.",
-                "↪ Technologies: Node.js, Hardhat, Solidity, React, AWS"
             ]
         },
         {
@@ -108,9 +96,10 @@
             "endDate": "2022-08-01",
             "summary": "Cloud Based Compliance Management System.",
             "highlights": [
-                "Built the main API of the system and contributed in designing the ecosystem's architecture. Contributed to all the adjacent applications which were deployed as serverless functions on AWS with Laravel Vapor.",
-                "Notable projects assigned solely to me: A reporting app. which would create a report from any SQL provided; A bespoke real time caching system which saved processed relational data into a no-sql db.",
-                "↪ Technologies: PHP, Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                "Developed the main API of the system and contributed to designing the ecosystem's architecture. Worked on all adjacent applications, which were deployed as serverless functions on AWS using Laravel Vapor.",
+                "Developed a reporting application that enabled non-technical stakeholders to preview any key metrics",
+                "Also built a bespoke real-time caching system that stores processed relational data in a NoSQL database. The purpose of this was to vastly increase the speed of the system and reduce the load on the database.",
+                "↪ Technologies: Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
         {
@@ -121,22 +110,22 @@
             "endDate": "2019-10-01",
             "summary": "Designing and developing our main applications and maintaining the AWS infrastructure.",
             "highlights": [
-                "Biggest task was the migration from a no-sql database to a relational database which resulted in a 11x speed increase. I achieved this with no change to the frontend or the end user's journey.",
+                "Led the migration from a NoSQL database to a relational database, resulting in an 11x speed increase without affecting the frontend or user experience.",
                 "↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
             ]
         },
         {
             "name": "Woooba",
-            "position": "PHP Application Developer / Dev-Ops",
+            "position": "Application Developer / Dev-Ops",
             "website": "https://www.woooba.io/",
             "startDate": "2017-02-01",
             "endDate": "2018-06-01",
             "summary": "The only Backend Engineer in the company, I was designing, developing & supporting client applications.",
             "highlights": [
-                "Developed & maintained nationwide educational platforms. Designed and integrated various APIs.",
-                "I built a complete financial management application with Laravel and Vue.",
-                "Managed all our DigitalOcean droplets with a CI setup on Forge.",
-                "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, PHP, RESTful APIs, MySql, Git, CLI, VueJS, PhpUnit."
+                "Developed and maintained nationwide educational platforms, enhancing the learning experience for thousands of users.",
+                "Built a comprehensive financial management application with Laravel and Vue, streamlining financial operations.",
+                "Managed all DigitalOcean droplets with a CI setup on Forge, ensuring reliable and efficient deployment processes.",
+                "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, MySql, VueJS"
             ]
         }
     ],
