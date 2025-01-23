@@ -123,9 +123,16 @@
             "summary": "Sole Backend Engineer responsible for designing, developing, and supporting client applications, driving business growth.",
             "highlights": [
                 "Developed and maintained nationwide educational platforms, enhancing the learning experience for thousands of users.",
-                "Built a comprehensive financial management application with Laravel and Vue, streamlining financial operations.",
-                "Managed all DigitalOcean droplets with a CI setup on Forge, ensuring reliable and efficient deployment processes.",
+                "Built a comprehensive financial management application with Laravel and Vue.",
+                "Managed all DigitalOcean droplets with a CI setup ensuring reliable and efficient deployment processes.",
                 "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, MySql, VueJS"
+            ],
+            "keywords": [
+                "Laravel",
+                "DigitalOcean",
+                "Laravel Forge",
+                "MySql",
+                "VueJS"
             ]
         }
     ],
@@ -165,10 +172,10 @@
         {
             "name": "Hobbies",
             "keywords": [
-                "Chess",
-                "HiFi Music",
                 "Motorcycles",
                 "Photography",
+                "Chess",
+                "HiFi Audio",
                 "Boxing"
             ]
         }
