@@ -80,9 +80,9 @@
             "startDate": "2018-08-01",
             "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment.",
             "highlights": [
-                "Artetra: As an acting CTO, I translated business requirements into project features. I was responsible for the application architecture and occasionally handled smaller tasks. I managed a team of 3-4 developers and provided them with necessary assistance.",
+                "Artetra: As an acting CTO, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance.",
                 "ElectroRent: Developed and maintained Laravel code to fix bugs and add new features for a tool-renting platform.",
-                "Aliat Optic: Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal bug fixes.",
+                "Aliat Optic: Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
                 "Hurlingham Club: Led the migration of systems to internal servers, resolving various DevOps issues.",
                 "TicketTailor: Improved the API of a large ticketing application by fixing bugs and adding new features.",
                 "↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
@@ -94,10 +94,10 @@
             "website": "https://truecompliance.co.uk/",
             "startDate": "2020-10-01",
             "endDate": "2022-08-01",
-            "summary": "Cloud Based Compliance Management System.",
+            "summary": "Contributed to the development of a cloud-based compliance management system, enhancing compliance tracking and reporting capabilities.",
             "highlights": [
-                "Developed the main API of the system and contributed to designing the ecosystem's architecture. Worked on all adjacent applications, which were deployed as serverless functions on AWS using Laravel Vapor.",
-                "Developed a reporting application that enabled non-technical stakeholders to preview any key metrics",
+                "Developed the main API of the system and contributed to designing the ecosystem's serverless architecture, leading to a robust and scalable solution.",
+                "Created a reporting application that enabled non-technical stakeholders to preview any key metrics.",
                 "Also built a bespoke real-time caching system that stores processed relational data in a NoSQL database. The purpose of this was to vastly increase the speed of the system and reduce the load on the database.",
                 "↪ Technologies: Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
@@ -108,7 +108,7 @@
             "website": "https://skin-analytics.com/",
             "startDate": "2018-10-01",
             "endDate": "2019-10-01",
-            "summary": "Designing and developing our main applications and maintaining the AWS infrastructure.",
+            "summary": "Designed and developed main applications and maintained AWS infrastructure, contributing to the company's mission of improving skin health.",
             "highlights": [
                 "Led the migration from a NoSQL database to a relational database, resulting in an 11x speed increase without affecting the frontend or user experience.",
                 "↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
@@ -120,7 +120,7 @@
             "website": "https://www.woooba.io/",
             "startDate": "2017-02-01",
             "endDate": "2018-06-01",
-            "summary": "The only Backend Engineer in the company, I was designing, developing & supporting client applications.",
+            "summary": "Sole Backend Engineer responsible for designing, developing, and supporting client applications, driving business growth.",
             "highlights": [
                 "Developed and maintained nationwide educational platforms, enhancing the learning experience for thousands of users.",
                 "Built a comprehensive financial management application with Laravel and Vue, streamlining financial operations.",
