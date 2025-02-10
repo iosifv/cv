@@ -126,13 +126,6 @@
                 "Built a comprehensive financial management application with Laravel and Vue.",
                 "Managed all DigitalOcean droplets with a CI setup ensuring reliable and efficient deployment processes.",
                 "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, MySql, VueJS"
-            ],
-            "keywords": [
-                "Laravel",
-                "DigitalOcean",
-                "Laravel Forge",
-                "MySql",
-                "VueJS"
             ]
         }
     ],
