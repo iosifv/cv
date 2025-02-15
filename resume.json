@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "+44.759.713.7739",
         "website": "https://iosifv.com",
-        "summary": "I am a Senior Software Engineer with extensive experience in developing end-to-end projects using Node.js and Laravel. I prioritise writing clean, maintainable code to ensure ease of maintenance and quick onboarding for junior developers. With a natural curiosity and a commitment to continuous learning, I am always exploring new technologies and methodologies to enhance my skills and contribute effectively to my team and stakeholders. I'm currently learning T3Stack, NextJS, tRPC, Drizzle ORM, with Vercel.",
+        "summary": "I am a Senior Software Engineer with extensive experience in developing end-to-end projects using Node.js and Laravel. I prioritise writing clean, maintainable code to ensure ease of maintenance and quick onboarding for junior developers. With a natural curiosity and a commitment to continuous learning, I am always exploring new technologies and methodologies to enhance my skills and contribute effectively to my team and stakeholders. I'm currently working on an open-source personal learning project using T3Stack with NextJS, tRPC, Drizzle ORM and Clerk while deploying to Vercel with Github Actions.",
         "location": {
             "city": "London",
             "countryCode": "UK"
