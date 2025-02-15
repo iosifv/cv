@@ -38,6 +38,7 @@
             "name": "Languages",
             "keywords": [
                 "Node.js",
+                "Javascript",
                 "Typescript",
                 "PHP",
                 "Solidity",
@@ -54,13 +55,13 @@
             ]
         },
         {
-            "name": "Admin",
+            "name": "Dev-Ops",
             "keywords": [
                 "AWS",
                 "Terraform",
-                "CI / CD",
-                "Docker",
-                "Shell Scripting"
+                "CI/CD",
+                "Github Actions",
+                "Docker"
             ]
         },
         {
