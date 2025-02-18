@@ -55,18 +55,6 @@
             ]
         },
         {
-            "name": "Databases",
-            "keywords": [
-                "MySQL",
-                "PostgreSQL",
-                "MongoDB",
-                "Redis",
-                "Eloquent ORM",
-                "Drizzle ORM",
-                "Prisma ORM"
-            ]
-        },
-        {
             "name": "Dev-Ops",
             "keywords": [
                 "AWS",
@@ -75,6 +63,27 @@
                 "Github Actions",
                 "Vercel",
                 "Docker"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "AuroraDB",
+                "DynamoDB",
+                "Redis",
+                "SQLite"
+            ]
+        },
+        {
+            "name": "ORM's",
+            "keywords": [
+                "Eloquent",
+                "Doctrine",
+                "Drizzle",
+                "Prisma"
             ]
         }
     ],
