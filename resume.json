@@ -17,6 +17,26 @@
         },
         "profiles": [
             {
+                "network": "ubuntu",
+                "username": "Personal Website: iosifv.com",
+                "url": "https://casa4.co.uk/"
+            },
+            {
+                "network": "js",
+                "username": "Personal Website: iosifv.com",
+                "url": "https://casa4.co.uk/"
+            },
+            {
+                "network": "fort-awesome",
+                "username": "Personal Website: iosifv.com",
+                "url": "https://casa4.co.uk/"
+            },
+            {
+                "network": "chrome",
+                "username": "Contractor Website: casa4.co.uk",
+                "url": "https://casa4.co.uk/"
+            },
+            {
                 "network": "linkedin",
                 "username": "LinkedIn: iosifv",
                 "url": "https://www.linkedin.com/in/iosifv/"
@@ -74,12 +94,11 @@
             "startDate": "2018-08-01",
             "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
             "highlights": [
-                "Artetra: As an acting CTO, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance.",
-                "ElectroRent: Developed and maintained Laravel code to fix bugs and add new features for a tool-renting platform.",
-                "Aliat Optic: Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
-                "Hurlingham Club: Led the migration of systems to internal servers, resolving various DevOps issues.",
-                "TicketTailor: Improved the API of a large ticketing application by fixing bugs and adding new features.",
-                "↪ Technologies: Laravel, Node.js, React, AWS Lambda, MySQL, Terraform, AWS, VueJS, NextJS, CLI, Bash"
+                "Artetra (NodeJS, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)\n As an acting CTO, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance.",
+                "ElectroRent (Laravel, MySQL)\n Developed and maintained Laravel code to fix bugs and add new features for a tool-renting platform.",
+                "Aliat Optic (NodeJS, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)\n Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
+                "Hurlingham Club (Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker) \n Led the migration of systems to internal servers, resolving various DevOps issues.",
+                "TicketTailor (PHP, MySQL, sqlite)\n Improved the API of a large ticketing application by fixing bugs and adding new features."
             ]
         },
         {
@@ -120,6 +139,39 @@
                 "Built a comprehensive financial management application with Laravel and Vue.",
                 "Managed all DigitalOcean droplets with a CI setup ensuring reliable and efficient deployment processes.",
                 "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, MySql, VueJS"
+            ]
+        },
+        {
+            "name": "iQU Group (Haarlem, Netherlands)",
+            "position": "PHP Application Developer",
+            "website": "https://iqu.com/",
+            "startDate": "2015-11-01",
+            "endDate": "2016-11-01",
+            "summary": "Marketing solutions for game developers.",
+            "highlights": [
+                "Created complete APIs from start to end as well as libraries which were used by my colleagues.",
+                "Another smaller project was built with Java and PipelineDB.",
+                "↪ Technologies: PHP, Laravel, Symfony, API, MySQL, Git, Docker, CLI, PhpUnit, AngularJS, Java"
+            ]
+        },
+        {
+            "name": "Project 89109 (Haarlem, Netherlands)",
+            "position": "PHP Application Developer",
+            "startDate": "2014-10-01",
+            "endDate": "2015-11-01",
+            "summary": "Online dating services.",
+            "highlights": [
+                "↪ Technologies: PHP, API, MySQL, CLI, Git, JS, jQuery."
+            ]
+        },
+        {
+            "name": "Hidden Hash",
+            "position": "Hardware Engineer / Dev-Ops",
+            "startDate": "2017-11-01",
+            "summary": "Family business dealing with mining crypto-currencies.",
+            "highlights": [
+                "Worked on Business model, Legal compliance, setup, Software & security optimization/tweaks/updates, Performance fine tuning.",
+                "Built an open-source watchdog mechanism: github.com/iosifv/amd-vega-startup-scripts"
             ]
         }
     ],

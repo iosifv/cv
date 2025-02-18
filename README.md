@@ -37,6 +37,7 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 - [JSON Schema - oficial schema](https://github.com/jsonresume/resume-schema/blob/master/schema.json)
 - [JSON Schema - thomasdavis](https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105)
 - [Theme - Stackoverflow](https://www.npmjs.com/package/jsonresume-theme-stackoverflow)
+- [Icon list for the network tag](https://fontawesome.com/search?o=r&ip=brands)
 
 
 ## Troubleshooting
