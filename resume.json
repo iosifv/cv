@@ -122,9 +122,8 @@
             ]
         },
         {
-            "name": "iQU Group (Haarlem, Netherlands)",
+            "name": "iQU Group (Amsterdam, NL)",
             "position": "PHP Application Developer",
-            "website": "https://iqu.com/",
             "startDate": "2015-11-01",
             "endDate": "2016-11-01",
             "summary": "Marketing solutions for game developers.",
@@ -135,7 +134,7 @@
             ]
         },
         {
-            "name": "Project 89109 (Haarlem, Netherlands)",
+            "name": "Project 89109 (Amsterdam, NL)",
             "position": "PHP Application Developer",
             "startDate": "2014-10-01",
             "endDate": "2015-11-01",
@@ -145,7 +144,7 @@
             ]
         },
         {
-            "name": "Hidden Hash",
+            "name": "Hidden Hash (Cluj-Napoca, RO)",
             "position": "Hardware Engineer / Dev-Ops",
             "startDate": "2017-11-01",
             "summary": "Family business dealing with mining crypto-currencies.",
@@ -158,9 +157,16 @@
     "projects": [
         {
             "name": "CLI Path",
+            "url": "https://iosifv.github.io/recspenses/",
+            "highlights": [
+                "Built a production-ready financial web application (originally a T3 Stack training project) to calculate recurring monthly expenses with a simple UI, multi-currency and cryptocurrency support, and an intuitive tagging system for organization.\n(T3 Stack, NodeJS, NextJS, PostgreSQL, TailwindCSS, Vercel, GHA)"
+            ]
+        },
+        {
+            "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "highlights": [
-                "Simple CLI tool to search paths on google maps (Serverless Framework, Auth0, OpenAPI, VHS)"
+                "Created a CLI tool to check Google Maps directions, with saved locations, authentication, and a custom serverless API layer to simplify token management — built for training, touching multiple technologies\n(NodeJs, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA)"
             ]
         },
         {
