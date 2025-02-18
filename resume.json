@@ -55,6 +55,18 @@
             ]
         },
         {
+            "name": "Databases",
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "Redis",
+                "Eloquent ORM",
+                "Drizzle ORM",
+                "Prisma ORM"
+            ]
+        },
+        {
             "name": "Dev-Ops",
             "keywords": [
                 "AWS",
