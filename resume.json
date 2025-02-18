@@ -78,12 +78,22 @@
             ]
         },
         {
-            "name": "ORM's",
+            "name": "ORMs",
             "keywords": [
                 "Eloquent",
                 "Doctrine",
                 "Drizzle",
                 "Prisma"
+            ]
+        },
+        {
+            "name": "Architectures",
+            "keywords": [
+                "MVC",
+                "Microservices",
+                "Serverless",
+                "Client server",
+                "Event-driven"
             ]
         }
     ],
@@ -113,7 +123,7 @@
                 "Developed the main API of the system and contributed to designing the ecosystem's serverless architecture, leading to a robust and scalable solution.",
                 "Created a reporting application that enabled non-technical stakeholders to preview any key metrics.",
                 "Also built a bespoke real-time caching system that stores processed relational data in a NoSQL database. The purpose of this was to vastly increase the speed of the system and reduce the load on the database.",
-                "↪ Technologies: Laravel, Laravel Vapor, AWS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                "↪ Technologies: Laravel, Laravel Vapor, AWS, SQS, VueJS, Node.js, Serverless Framework, CLI, Bash"
             ]
         },
         {
@@ -180,7 +190,7 @@
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
             "highlights": [
-                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills.\n Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. For this project I used the following:  NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA)"
+                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is:  NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA)"
             ]
         },
         {
