@@ -18,8 +18,10 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 - [My Gist for the json](https://gist.github.com/iosifv/bdfc617628bc7a2fc8763a2be6b1a816)
 - [Generated Gihub Page](https://iosifv.github.io/cv)
 - [Generated Gihub Page (pdf)](https://iosifv.github.io/cv/resume.pdf)
+- [Generated Gihub Page (pdf)](https://iosifv.github.io/cv/Iosif_Vigh-Senior_Software_Engineer.pdf)
 - [Mirrored Page on my website](https://cv.iosifv.com/)
 - [Mirrored Page on my website (pdf)](https://cv.iosifv.com/resume.pdf)
+- [Mirrored Page on my website (pdf)](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
   
 
 
