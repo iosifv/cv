@@ -17,26 +17,6 @@
         },
         "profiles": [
             {
-                "network": "ubuntu",
-                "username": "Personal Website: iosifv.com",
-                "url": "https://casa4.co.uk/"
-            },
-            {
-                "network": "js",
-                "username": "Personal Website: iosifv.com",
-                "url": "https://casa4.co.uk/"
-            },
-            {
-                "network": "fort-awesome",
-                "username": "Personal Website: iosifv.com",
-                "url": "https://casa4.co.uk/"
-            },
-            {
-                "network": "chrome",
-                "username": "Contractor Website: casa4.co.uk",
-                "url": "https://casa4.co.uk/"
-            },
-            {
                 "network": "linkedin",
                 "username": "LinkedIn: iosifv",
                 "url": "https://www.linkedin.com/in/iosifv/"
