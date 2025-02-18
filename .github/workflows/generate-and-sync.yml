@@ -52,11 +52,11 @@ jobs:
           
           cp temporary/index.html docs/index.html
           cp temporary/resume.pdf docs/resume.pdf
-          cp temporary/resume.pdf docs/Sr-Backend-Developer---Iosif-V.pdf
+          cp temporary/resume.pdf docs/Iosif_Vigh-Senior_Software_Engineer.pdf.pdf
           
           git add docs/index.html
           git add docs/resume.pdf
-          git add docs/Sr-Backend-Developer---Iosif-V.pdf
+          git add docs/Iosif_Vigh-Senior_Software_Engineer.pdf.pdf
 
           # Copy the download html file
           git checkout main -- download.html
