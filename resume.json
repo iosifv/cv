@@ -17,14 +17,14 @@
         },
         "profiles": [
             {
-                "network": "linkedin",
-                "username": "LinkedIn: iosifv",
-                "url": "https://www.linkedin.com/in/iosifv/"
-            },
-            {
                 "network": "github",
                 "username": "Github: iosifv",
                 "url": "https://github.com/iosifv"
+            },
+            {
+                "network": "linkedin",
+                "username": "LinkedIn: iosifv",
+                "url": "https://www.linkedin.com/in/iosifv/"
             },
             {
                 "network": "stack-overflow",
