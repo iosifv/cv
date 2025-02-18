@@ -8,7 +8,7 @@
         "name": "Iosif V.",
         "label": "Senior Software Engineer",
         "email": "hire-me@iosifv.com",
-        "phone": "+44.759.713.7739",
+        "phone": "(+44) 759 713 7739",
         "website": "https://iosifv.com",
         "summary": "I am a Senior Software Engineer with extensive experience in developing end-to-end projects using Node.js and Laravel. I prioritise writing clean, maintainable code to ensure ease of maintenance and quick onboarding for junior developers. With a natural curiosity and a commitment to continuous learning, I am always exploring new technologies and methodologies to enhance my skills and contribute effectively to my team and stakeholders. I'm currently working on an open-source personal learning project using T3Stack with NextJS, tRPC, Drizzle ORM and Clerk while deploying to Vercel with Github Actions.",
         "location": {
@@ -18,17 +18,17 @@
         "profiles": [
             {
                 "network": "linkedin",
-                "username": "iosifv",
+                "username": "LinkedIn: iosifv",
                 "url": "https://www.linkedin.com/in/iosifv/"
             },
             {
                 "network": "github",
-                "username": "iosifv",
+                "username": "Github: iosifv",
                 "url": "https://github.com/iosifv"
             },
             {
                 "network": "stack-overflow",
-                "username": "iosifv",
+                "username": "StackOverflow: iosifv",
                 "url": "https://stackoverflow.com/users/3219816/iosifv"
             }
         ]
@@ -144,15 +144,40 @@
             "institution": "Technical University of Cluj-Napoca",
             "area": "Management and Business Engineering",
             "studyType": "Masters",
-            "startDate": "2010-01-01",
-            "endDate": "2012-01-01"
+            "startDate": "2012-01-01",
+            "endDate": "2010-01-01",
+            "courses": [
+                "Operations Management",
+                "Business Analytics",
+                "Marketing Fundamentals",
+                "Human Resource Management",
+                "Operations Management"
+            ]
         },
         {
             "institution": "Technical University of Cluj-Napoca",
             "area": "Computer Science",
-            "studyType": "Masters",
+            "studyType": "Bachelor of Engineering",
             "startDate": "2004-01-01",
-            "endDate": "2009-01-01"
+            "endDate": "2009-01-01",
+            "courses": [
+                "Object-oriented programming",
+                "Data Structures and Algorithms",
+                "Advanced Databases",
+                "Computer Networks",
+                "C++",
+                "Java",
+                ".NET",
+                "SQL",
+                "Lisp",
+                "Prolog",
+                "Xilinx",
+                "Assembly",
+                "x86 processor",
+                "Electronics",
+                "Physics",
+                "Mathematics"
+            ]
         }
     ],
     "interests": [
