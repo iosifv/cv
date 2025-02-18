@@ -168,8 +168,8 @@
     ],
     "projects": [
         {
-            "name": "CLI Path",
-            "url": "https://iosifv.github.io/recspenses/",
+            "name": "Recspenses",
+            "url": "https://www.github.com/iosifv/recspenses/",
             "highlights": [
                 "Built a production-ready financial web application (originally a T3 Stack training project) to calculate recurring monthly expenses with a simple UI, multi-currency and cryptocurrency support, and an intuitive tagging system for organization.\n(T3 Stack, NodeJS, NextJS, PostgreSQL, TailwindCSS, Vercel, GHA)"
             ]
