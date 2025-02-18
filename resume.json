@@ -171,7 +171,7 @@
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
             "highlights": [
-                "Built a production-ready financial web application (originally a T3 Stack training project) to calculate recurring monthly expenses with a simple UI, multi-currency and cryptocurrency support, and an intuitive tagging system for organization.\n(T3 Stack, NodeJS, NextJS, PostgreSQL, TailwindCSS, Vercel, GHA)"
+                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills.\n Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. For this project I used the following:  NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA)"
             ]
         },
         {
