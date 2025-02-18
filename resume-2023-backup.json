@@ -214,19 +214,25 @@
             "institution": "Technical University of Cluj-Napoca",
             "area": "Management and Business Engineering",
             "studyType": "Masters",
-            "startDate": "2010-01-01",
             "endDate": "2012-01-01",
             "courses": [
-                "General management theories"
+                "Operations Management",
+                "Business Analytics",
+                "Marketing Fundamentals",
+                "Human Resource Management",
+                "Operations Management"
             ]
         },
         {
             "institution": "Technical University of Cluj-Napoca",
             "area": "Computer Science",
-            "studyType": "Masters",
-            "startDate": "2004-01-01",
+            "studyType": "Bachelor of Engineering",
             "endDate": "2009-01-01",
             "courses": [
+                "Object-oriented programming",
+                "Data Structures and Algorithms",
+                "Advanced Databases",
+                "Computer Networks",
                 "C++",
                 "Java",
                 ".NET",
