@@ -5,6 +5,7 @@ package-lock.json
 # Test cv exports locally
 exports
 notes.md
+notes-ai.md
 
 # OS Generated
 **/.DS_Store
