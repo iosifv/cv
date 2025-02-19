@@ -24,7 +24,6 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 - [Mirrored Page on my website (pdf)](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
   
 
-
 ####  Jsonresume Registry (generated from gist)
 - [theme=caffeine](https://registry.jsonresume.org/iosifv?theme=caffeine)
 - [theme=stackoverflow](https://registry.jsonresume.org/iosifv?theme=stackoverflow)
