@@ -99,7 +99,7 @@
     ],
     "work": [
         {
-            "name": "Casa4 - own LTD (London, UK)",
+            "company": "Casa4 - own LTD (London, UK)",
             "position": "Contractor Software Engineer",
             "website": "https://casa4.co.uk/",
             "startDate": "2018-08-01",
@@ -117,7 +117,7 @@
             ]
         },
         {
-            "name": "True Compliance (London, UK)",
+            "company": "True Compliance (London, UK)",
             "position": "Software Engineer",
             "website": "https://truecompliance.co.uk/",
             "startDate": "2020-10-01",
@@ -132,7 +132,7 @@
             ]
         },
         {
-            "name": "Skin Analytics (London, UK)",
+            "company": "Skin Analytics (London, UK)",
             "position": "Software Engineer",
             "website": "https://skin-analytics.com/",
             "startDate": "2018-10-01",
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "name": "Woooba (London, UK)",
+            "company": "Woooba (London, UK)",
             "position": "Application Developer / Dev-Ops",
             "website": "https://www.woooba.io/",
             "startDate": "2017-02-01",
@@ -158,7 +158,7 @@
             ]
         },
         {
-            "name": "iQU Group (Amsterdam, NL)",
+            "company": "iQU Group (Amsterdam, NL)",
             "position": "PHP Application Developer",
             "startDate": "2015-11-01",
             "endDate": "2016-11-01",
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "name": "Project 89109 (Amsterdam, NL)",
+            "company": "Project 89109 (Amsterdam, NL)",
             "position": "PHP Application Developer",
             "startDate": "2014-10-01",
             "endDate": "2015-11-01",
@@ -187,34 +187,29 @@
             "url": "https://www.github.com/iosifv/recspenses/",
             "summary":
             "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\nI used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
-
         },
         {
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "summary":
             "Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: *Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
-
         },
         {
             "name": "Casa4 website",
             "url": "https://casa4.co.uk/",
             "summary":
             "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
-
         },
         {
             "name": "T3 (Terminal Toolbelt Two)",
             "url": "https://www.github.com/iosifv/t3/",
             "summary":
             "Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go."
-
         },
         {
             "name": "Hidden Hash (Cluj-Napoca, RO)",
             "summary":
             "Personal business dealing with mining cryptocurrencies. Worked on Business model, legal compliance, hardware setup, software & security optimization/tweaks/updates, Performance fine tuning with various Bash, Batch or PowerShell scripts."
-
         }
     ],
     "education": [

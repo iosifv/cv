@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/iosifv/cv#readme",
   "dependencies": {
-    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-macchiato": "1.1",
     "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-paper": "^0.5.0",
-    "jsonresume-theme-stackoverflow": "2.0"
+    "jsonresume-theme-stackoverflow": "2.1.0"
   }
 }
