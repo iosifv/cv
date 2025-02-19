@@ -105,11 +105,15 @@
             "startDate": "2018-08-01",
             "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
             "highlights": [
-                "Artetra (NodeJS, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)\n As an acting CTO, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance.",
-                "ElectroRent (Laravel, MySQL)\n Developed and maintained Laravel code to fix bugs and add new features for a tool-renting platform.",
-                "Aliat Optic (NodeJS, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)\n Designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
-                "Hurlingham Club (Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker) \n Led the migration of systems to internal servers, resolving various DevOps issues.",
-                "TicketTailor (PHP, MySQL, sqlite)\n Improved the API of a large ticketing application by fixing bugs and adding new features."
+                "*Artetra (NodeJS, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)* \n As an *Acting CTO*, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.",
+
+                "*ElectroRent (Laravel, MySQL, SQLite, Bash)* \n As a *Backkend Engineer* I worked on the API of a large tool renting platform built with Laravel. Responsibilities included designing and implementing new API endpoints, creating database migrations, building new features, debugging complex issues, and optimizing performance across critical application areas. ",
+
+                "*Aliat Optic (NodeJS, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)\n As a *Solution Architect* I designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
+
+                "*Hurlingham Club (Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a *Backend and DevOps Engineer* I led the migration of a large application from from a paid provider to the client's own servers. My responsibilities included provisioning the new infrastructure, setting up de CI/DC pipeline, updating the code from PHP5.5 to PHP8.1, updating all the dependencies to the latest stable versions, making sure no data was lost in the DB and creating diagrams to explain each step of the process to the stakeholders.",
+
+                "*TicketTailor (PHP, MySQL, SQLite)* \n As a *Backkend Engineer* I worked on the API of a large ticketing application built in PHP. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
             ]
         },
         {
