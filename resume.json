@@ -105,11 +105,11 @@
             "startDate": "2018-08-01",
             "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
             "highlights": [
-                "**Artetra** *(NodeJS, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)* \n As an **Acting CTO**, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.",
+                "**Artetra** *(Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)* \n As an **Acting CTO**, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.",
 
                 "**ElectroRent** *(Laravel, MySQL, SQLite, Bash)* \n As a **Backend Engineer** I worked on the API of a large tool renting platform built with Laravel. Responsibilities included designing and implementing new API endpoints, creating database migrations, building new features, debugging complex issues, and optimizing performance across critical application areas. ",
 
-                "**Aliat Optic** *(NodeJS, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)*\n As a **Solution Architect** I designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
+                "**Aliat Optic** *(Node.js, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)*\n As a **Solution Architect** I designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.",
 
                 "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a **Backend and DevOps Engineer** I led the migration of a large application from from a paid provider to the client's own servers. My responsibilities included provisioning the new infrastructure, setting up de CI/DC pipeline, updating the code from PHP5.5 to PHP8.1, updating all the dependencies to the latest stable versions, making sure no data was lost in the DB and creating diagrams to explain each step of the process to the stakeholders.",
 
@@ -126,8 +126,9 @@
             "highlights": [
                 "Developed the main API of the system and contributed to designing the ecosystem's serverless architecture, leading to a robust and scalable solution.",
                 "Created a reporting application that enabled non-technical stakeholders to preview any key metrics.",
-                "Also built a bespoke real-time caching system that stores processed relational data in a NoSQL database. The purpose of this was to vastly increase the speed of the system and reduce the load on the database.",
-                "↪ Technologies: Laravel, Laravel Vapor, AWS, SQS, VueJS, Node.js, Serverless Framework, CLI, Bash"
+                "Developed various tools for interal use in VueJS, as well as admin dashboards in Laravel Nova for system performance monitoring and reporting.",
+                "Also built a bespoke real-time caching system that stores processed relational MySQL data into a MongoDB database controlled and accessed by a serverless API. The purpose is to vastly increase the speed for final users down to near instant results and reduce the load on the main database.",
+                "↪ Technologies: Laravel, Laravel Nova, Laravel Vapor, AWS, SQS, VueJS, Node.js, Serverless Framework, Lambda, CLI, Bash"
             ]
         },
         {
@@ -138,8 +139,8 @@
             "endDate": "2019-10-01",
             "summary": "Designed and developed main applications and maintained AWS infrastructure, contributing to the company's mission of improving skin health.",
             "highlights": [
-                "Led the migration from a NoSQL database to a relational database, resulting in an 11x speed increase without affecting the frontend or user experience.",
-                "↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular"
+                "Led the migration from a NoSQL database (CouchDB) to a relational database (MySQL), resulting in an 11x speed increase without affecting the frontend or user experience. This was achieved by a series of steps, including, creating scripts and processes for provisioning a new server, exporting the CouchDB records, normalising the data, importing it into the newly created server and database, then finally running a series of checks to ensure consistency.",
+                "↪ Technologies: Node.js, Express.js, TypeScript, CouchDB, AWS, Loopback, pm2, Angular"
             ]
         },
         {
@@ -163,8 +164,8 @@
             "endDate": "2016-11-01",
             "summary": "Marketing solutions for game developers.",
             "highlights": [
-                "Created complete APIs from start to end as well as libraries which were used by my colleagues.",
-                "Another smaller project was built with Java and PipelineDB.",
+                "Created complete APIs from start to end as well as libraries which were used by my colleagues. Besides the backend work, I also built an AngularJS client to consume one of the APIs.",
+                "Worked on a smaller mobile monitoring project built with Java and PipelineDB.",
                 "↪ Technologies: PHP, Laravel, Symfony, API, MySQL, Git, Docker, CLI, PhpUnit, AngularJS, Java"
             ]
         },
@@ -175,17 +176,8 @@
             "endDate": "2015-11-01",
             "summary": "Online dating services.",
             "highlights": [
+                "As a junior PHP developer working on a bespoke MVC framework, I was responsible for creating new features, fixing bugs, and maintaining the codebase.",
                 "↪ Technologies: PHP, API, MySQL, CLI, Git, JS, jQuery."
-            ]
-        },
-        {
-            "name": "Hidden Hash (Cluj-Napoca, RO)",
-            "position": "Hardware Engineer / Dev-Ops",
-            "startDate": "2017-11-01",
-            "summary": "Family business dealing with mining crypto-currencies.",
-            "highlights": [
-                "Worked on Business model, Legal compliance, setup, Software & security optimization/tweaks/updates, Performance fine tuning.",
-                "Built an open-source watchdog mechanism: github.com/iosifv/amd-vega-startup-scripts"
             ]
         }
     ],
@@ -193,30 +185,36 @@
         {
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
-            "highlights": [
-                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: *NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
-            ]
+            "summary":
+            "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\nI used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
+
         },
         {
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
-            "highlights": [
-                "Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: *NodeJs, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
-            ]
+            "summary":
+            "Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: *Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
+
         },
         {
             "name": "Casa4 website",
             "url": "https://casa4.co.uk/",
-            "highlights": [
-                "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
-            ]
+            "summary":
+            "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
+
         },
         {
             "name": "T3 (Terminal Toolbelt Two)",
             "url": "https://www.github.com/iosifv/t3/",
-            "highlights": [
-                "Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go."
-            ]
+            "summary":
+            "Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go."
+
+        },
+        {
+            "name": "Hidden Hash (Personal Venture)",
+            "summary":
+            "Personal business dealing with mining cryptocurrencies. Worked on Business model, legal compliance, hardware setup, software & security optimization/tweaks/updates, Performance fine tuning. Built an open-source watchdog mechanism with PowerShell: github.com/iosifv/amd-vega-startup-scripts"
+
         }
     ],
     "education": [
