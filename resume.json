@@ -194,21 +194,21 @@
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
             "highlights": [
-                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is:  NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA)"
+                "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.\n I used the \"T3 Stack\" which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: *NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
             ]
         },
         {
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "highlights": [
-                "Created a CLI tool to check Google Maps directions, with saved locations, authentication, and a custom serverless API layer to simplify token management — built for training, touching multiple technologies\n(NodeJs, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA)"
+                "Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: *NodeJs, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
             ]
         },
         {
             "name": "Casa4 website",
             "url": "https://casa4.co.uk/",
             "highlights": [
-                "An overengineered personal website built for learning purposes (Hugo, Terraform, Cloudfront, AWS, GHA)"
+                "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
             ]
         }
     ],
