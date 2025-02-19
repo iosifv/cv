@@ -113,7 +113,7 @@
 
                 "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a **Backend and DevOps Engineer** I led the migration of a large application from from a paid provider to the client's own servers. My responsibilities included provisioning the new infrastructure, setting up de CI/DC pipeline, updating the code from PHP5.5 to PHP8.1, updating all the dependencies to the latest stable versions, making sure no data was lost in the DB and creating diagrams to explain each step of the process to the stakeholders.",
 
-                "**TicketTailor** *(PHP, MySQL, SQLite)* \n As a **Backkend Engineer** I worked on the API of a large ticketing application built in PHP. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
+                "**TicketTailor** *(PHP, MySQL, SQLite)* \n As a **Backend Engineer** I worked on the API of a large ticketing application built in PHP. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
             ]
         },
         {
