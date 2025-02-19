@@ -914,7 +914,7 @@ section .location {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(7)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
       </header>
     
       <section id="work">
@@ -934,9 +934,9 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.</p></p></div>
             <ul class="highlights">
-              <li><p><p><strong>Artetra</strong> <em>(NodeJS, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)</em></p><p>As an <strong>Acting CTO</strong>, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.</p></p></li>
+              <li><p><p><strong>Artetra</strong> <em>(Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)</em></p><p>As an <strong>Acting CTO</strong>, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.</p></p></li>
               <li><p><p><strong>ElectroRent</strong> <em>(Laravel, MySQL, SQLite, Bash)</em></p><p>As a <strong>Backend Engineer</strong> I worked on the API of a large tool renting platform built with Laravel. Responsibilities included designing and implementing new API endpoints, creating database migrations, building new features, debugging complex issues, and optimizing performance across critical application areas.</p></p></li>
-              <li><p><p><strong>Aliat Optic</strong> <em>(NodeJS, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)</em></p><p>As a <strong>Solution Architect</strong> I designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.</p></p></li>
+              <li><p><p><strong>Aliat Optic</strong> <em>(Node.js, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)</em></p><p>As a <strong>Solution Architect</strong> I designed and developed an invoicing app, integrating external FTP data via AWS Lambda and DynamoDB. This application was successfully used in production for about 3 years with minimal maintenance, demonstrating reliability and efficiency.</p></p></li>
               <li><p><p><strong>Hurlingham Club</strong> <em>(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)</em></p><p>As a <strong>Backend and DevOps Engineer</strong> I led the migration of a large application from from a paid provider to the client's own servers. My responsibilities included provisioning the new infrastructure, setting up de CI/DC pipeline, updating the code from PHP5.5 to PHP8.1, updating all the dependencies to the latest stable versions, making sure no data was lost in the DB and creating diagrams to explain each step of the process to the stakeholders.</p></p></li>
               <li><p><p><strong>TicketTailor</strong> <em>(PHP, MySQL, SQLite)</em></p><p>As a <strong>Backkend Engineer</strong> I worked on the API of a large ticketing application built in PHP. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API.</p></p></li>
             </ul>
@@ -960,8 +960,9 @@ section .location {
             <ul class="highlights">
               <li><p><p>Developed the main API of the system and contributed to designing the ecosystem's serverless architecture, leading to a robust and scalable solution.</p></p></li>
               <li><p><p>Created a reporting application that enabled non-technical stakeholders to preview any key metrics.</p></p></li>
-              <li><p><p>Also built a bespoke real-time caching system that stores processed relational data in a NoSQL database. The purpose of this was to vastly increase the speed of the system and reduce the load on the database.</p></p></li>
-              <li><p><p>↪ Technologies: Laravel, Laravel Vapor, AWS, SQS, VueJS, Node.js, Serverless Framework, CLI, Bash</p></p></li>
+              <li><p><p>Developed various tools for interal use in VueJS, as well as admin dashboards in Laravel Nova for system performance monitoring and reporting.</p></p></li>
+              <li><p><p>Also built a bespoke real-time caching system that stores processed relational MySQL data into a MongoDB database controlled and accessed by a serverless API. The purpose is to vastly increase the speed for final users down to near instant results and reduce the load on the main database.</p></p></li>
+              <li><p><p>↪ Technologies: Laravel, Laravel Nova, Laravel Vapor, AWS, SQS, VueJS, Node.js, Serverless Framework, Lambda, CLI, Bash</p></p></li>
             </ul>
           </div>
         </section>
@@ -981,8 +982,8 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>Designed and developed main applications and maintained AWS infrastructure, contributing to the company's mission of improving skin health.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Led the migration from a NoSQL database to a relational database, resulting in an 11x speed increase without affecting the frontend or user experience.</p></p></li>
-              <li><p><p>↪ Technologies: Node.js, Express.js, TypeScript, AWS, Loopback, pm2, Angular</p></p></li>
+              <li><p><p>Led the migration from a NoSQL database (CouchDB) to a relational database (MySQL), resulting in an 11x speed increase without affecting the frontend or user experience. This was achieved by a series of steps, including, creating scripts and processes for provisioning a new server, exporting the CouchDB records, normalising the data, importing it into the newly created server and database, then finally running a series of checks to ensure consistency.</p></p></li>
+              <li><p><p>↪ Technologies: Node.js, Express.js, TypeScript, CouchDB, AWS, Loopback, pm2, Angular</p></p></li>
             </ul>
           </div>
         </section>
@@ -1025,8 +1026,8 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>Marketing solutions for game developers.</p></p></div>
             <ul class="highlights">
-              <li><p><p>Created complete APIs from start to end as well as libraries which were used by my colleagues.</p></p></li>
-              <li><p><p>Another smaller project was built with Java and PipelineDB.</p></p></li>
+              <li><p><p>Created complete APIs from start to end as well as libraries which were used by my colleagues. Besides the backend work, I also built an AngularJS client to consume one of the APIs.</p></p></li>
+              <li><p><p>Worked on a smaller mobile monitoring project built with Java and PipelineDB.</p></p></li>
               <li><p><p>↪ Technologies: PHP, Laravel, Symfony, API, MySQL, Git, Docker, CLI, PhpUnit, AngularJS, Java</p></p></li>
             </ul>
           </div>
@@ -1047,28 +1048,8 @@ section .location {
            <div class="item" id="work-item">
             <div class="summary"><p><p>Online dating services.</p></p></div>
             <ul class="highlights">
+              <li><p><p>As a junior PHP developer working on a bespoke MVC framework, I was responsible for creating new features, fixing bugs, and maintaining the codebase.</p></p></li>
               <li><p><p>↪ Technologies: PHP, API, MySQL, CLI, Git, JS, jQuery.</p></p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="work-item">
-    
-          <label for="work-item-6"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Nov 2017</span>
-              <span class="endDate">- Current</span>
-            </div>
-            <div class="position">Hardware Engineer / Dev-Ops</div>
-            <div class="company">Hidden Hash (Cluj-Napoca, RO)</div>
-          </header>
-    
-           <div class="item" id="work-item">
-            <div class="summary"><p><p>Family business dealing with mining crypto-currencies.</p></p></div>
-            <ul class="highlights">
-              <li><p><p>Worked on Business model, Legal compliance, setup, Software &amp; security optimization/tweaks/updates, Performance fine tuning.</p></p></li>
-              <li><p><p>Built an open-source watchdog mechanism: github.com/iosifv/amd-vega-startup-scripts</p></p></li>
             </ul>
           </div>
         </section>
@@ -1076,10 +1057,11 @@ section .location {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Projects <span class="item-count">(4)</span></h2>
+        <h2 class='section-title'>Projects <span class="item-count">(5)</span></h2>
       </header>
       <section id="projects">
         <section class="project-item">
+            <label for="project-item-0"></label>
     
           <header class="clear">
             <div class="position">Recspenses</div>
@@ -1089,12 +1071,11 @@ section .location {
             <a target="_blank" href="https://www.github.com/iosifv/recspenses/">https://www.github.com/iosifv/recspenses/</a>
           </span>
           <div class="item">
-            <ul class="highlights">
-                <li><p><p>A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.</p><p>I used the &quot;T3 Stack&quot; which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: <em>NextJS, tRPC, TypeScript, NodeJS, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA</em></p></p></li>
-            </ul>
+              <div class="summary"><p><p>A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labeling.</p><p>I used the &quot;T3 Stack&quot; which is a web development stack made focused on simplicity, modularity, and full-stack typesafety. The full technology list is: <em>NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA</em></p></p></div>
           </div>
         </section>
         <section class="project-item">
+            <label for="project-item-1"></label>
     
           <header class="clear">
             <div class="position">CLI Path</div>
@@ -1104,12 +1085,11 @@ section .location {
             <a target="_blank" href="https://iosifv.github.io/cli-path/">https://iosifv.github.io/cli-path/</a>
           </span>
           <div class="item">
-            <ul class="highlights">
-                <li><p><p>Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: <em>NodeJs, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA</em></p></p></li>
-            </ul>
+              <div class="summary"><p><p>Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: <em>Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA</em></p></p></div>
           </div>
         </section>
         <section class="project-item">
+            <label for="project-item-2"></label>
     
           <header class="clear">
             <div class="position">Casa4 website</div>
@@ -1119,12 +1099,11 @@ section .location {
             <a target="_blank" href="https://casa4.co.uk/">https://casa4.co.uk/</a>
           </span>
           <div class="item">
-            <ul class="highlights">
-                <li><p><p>An overengineered personal website built for learning purposes. Themed with <em>Hugo</em>, built with <em>Terraform</em> and  <em>Cloudfront</em>, deployed to <em>AWS S3</em> with <em>Github Actions</em>.</p></p></li>
-            </ul>
+              <div class="summary"><p><p>An overengineered personal website built for learning purposes. Themed with <em>Hugo</em>, built with <em>Terraform</em> and  <em>Cloudfront</em>, deployed to <em>AWS S3</em> with <em>Github Actions</em>.</p></p></div>
           </div>
         </section>
         <section class="project-item">
+            <label for="project-item-3"></label>
     
           <header class="clear">
             <div class="position">T3 (Terminal Toolbelt Two)</div>
@@ -1134,9 +1113,17 @@ section .location {
             <a target="_blank" href="https://www.github.com/iosifv/t3/">https://www.github.com/iosifv/t3/</a>
           </span>
           <div class="item">
-            <ul class="highlights">
-                <li><p><p>Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go.</p></p></li>
-            </ul>
+              <div class="summary"><p><p>Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go.</p></p></div>
+          </div>
+        </section>
+        <section class="project-item">
+            <label for="project-item-4"></label>
+    
+          <header class="clear">
+            <div class="position">Hidden Hash (Personal Venture)</div>
+          </header>
+          <div class="item">
+              <div class="summary"><p><p>Personal business dealing with mining cryptocurrencies. Worked on Business model, legal compliance, hardware setup, software &amp; security optimization/tweaks/updates, Performance fine tuning. Built an open-source watchdog mechanism with PowerShell: github.com/iosifv/amd-vega-startup-scripts</p></p></div>
           </div>
         </section>
       </section>
