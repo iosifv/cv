@@ -18,6 +18,6 @@
   "homepage": "https://github.com/iosifv/cv#readme",
   "dependencies": {
     "jsonresume-theme-macchiato": "1.1",
-    "jsonresume-theme-stackoverflow": "2.1.0"
+    "jsonresume-theme-stackoverflow": "2.1"
   }
 }
