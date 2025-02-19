@@ -211,9 +211,9 @@
 
         },
         {
-            "name": "Hidden Hash (Personal Venture)",
+            "name": "Hidden Hash (Cluj-Napoca, RO)",
             "summary":
-            "Personal business dealing with mining cryptocurrencies. Worked on Business model, legal compliance, hardware setup, software & security optimization/tweaks/updates, Performance fine tuning. Built an open-source watchdog mechanism with PowerShell: github.com/iosifv/amd-vega-startup-scripts"
+            "Personal business dealing with mining cryptocurrencies. Worked on Business model, legal compliance, hardware setup, software & security optimization/tweaks/updates, Performance fine tuning with various Bash, Batch or PowerShell scripts."
 
         }
     ],
