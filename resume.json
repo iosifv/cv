@@ -210,6 +210,13 @@
             "highlights": [
                 "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
             ]
+        },
+        {
+            "name": "T3 (Terminal Toolbelt Two)",
+            "url": "https://www.github.com/iosifv/t3/",
+            "highlights": [
+                "Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience. Features include: an install script, platform selection (osx, ubuntu) specific scripts as well as agnostic ones, multi-machine installs. The interface is powered by charmbracelet/gum, a Terminal UI framework written in Go."
+            ]
         }
     ],
     "education": [
