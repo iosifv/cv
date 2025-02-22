@@ -50,6 +50,7 @@
             "keywords": [
                 "Laravel",
                 "Express",
+                "Loopback",
                 "Serverless",
                 "Hardhat"
             ]
@@ -78,15 +79,6 @@
             ]
         },
         {
-            "name": "ORMs",
-            "keywords": [
-                "Eloquent",
-                "Doctrine",
-                "Drizzle",
-                "Prisma"
-            ]
-        },
-        {
             "name": "Architectures",
             "keywords": [
                 "MVC",
@@ -94,6 +86,19 @@
                 "Serverless",
                 "Client server",
                 "Event-driven"
+            ]
+        },
+        {
+            "name": "Standards",
+            "keywords": [
+                "ORMs",
+                "SOLID",
+                "ACID",
+                "Indexing",
+                "REST",
+                "OpenAPI",
+                "JWT",
+                "CLI"
             ]
         }
     ],
