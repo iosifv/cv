@@ -85,12 +85,14 @@
                 "Microservices",
                 "Serverless",
                 "Client server",
-                "Event-driven"
+                "Event-driven",
+                "Monolith"
             ]
         },
         {
             "name": "Standards",
             "keywords": [
+                "Caching",
                 "ORMs",
                 "SOLID",
                 "ACID",
