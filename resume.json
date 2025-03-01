@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "(+44) 759 713 7739",
         "website": "https://iosifv.com",
-        "summary": "I am a Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specializing in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through strategic architecture, clean code, automated testing and resilient deployments - paired with good documentation and mentorship. A core focus is ensuring technical outcomes directly align with business needs. Public projects reflect my commitment to innovation and continuous learning. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems—whether collaborating within teams or driving solo initiatives.",
+        "summary": "I am a Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through strategic architecture, clean code, automated testing and resilient deployments - paired with good documentation and mentorship. A core focus is ensuring technical outcomes directly align with business needs. Public projects reflect my commitment to innovation and continuous learning. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems—whether collaborating within teams or driving solo initiatives.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -110,7 +110,7 @@
             "position": "Contractor Software Engineer",
             "website": "https://casa4.co.uk/",
             "startDate": "2018-08-01",
-            "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specializing in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
+            "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specialising in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
             "highlights": [
                 "**Artetra** *(Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker)* \n As an **Acting CTO**, I was responsible with converting business requirements into project features by overseeing the application architecture. I managed a team of 3-4 developers and provided them with necessary assistance. The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS. The project was deployed to an AWS infrastructure using Docker.",
 
