@@ -105,7 +105,22 @@
             font-size: 1.1em;
         }
 
-        .link-button:hover {
+        .link-button-small {
+            padding: 8px 17px;
+            margin: 0 10%;
+            background-color: var(--button-bg);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .link-button:hover, .link-button-small:hover {
             background-color: var(--button-hover);
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -146,9 +161,10 @@
             <a href="https://cal.com/iosifvee" target="_blank" class="link-button">📅 &nbsp; Schedule a Meeting</a>
 
             <p class="cta-text">Get to know me better:</p>
-            <a href="https://iosifv.com/" target="_blank" class="link-button">🔗 &nbsp; iosifv.com - Personal Website</a>
-            <a href="https://www.linkedin.com/in/iosifv" target="_blank" class="link-button">🔗 &nbsp; Connect on LinkedIn</a>
-            <a href="https://github.com/iosifv" target="_blank" class="link-button">🔗 &nbsp; Connect on Github</a>
+            <a href="https://iosifv.com/" target="_blank" class="link-button-small">iosifv.com</a>
+            <a href="https://casa4.co.uk/" target="_blank" class="link-button-small">casa4.co.uk</a>
+            <a href="https://www.linkedin.com/in/iosifv" target="_blank" class="link-button-small">Connect on LinkedIn</a>
+            <a href="https://github.com/iosifv" target="_blank" class="link-button-small">Connect on Github</a>
         </div>
     </div>
 </body>
