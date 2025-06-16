@@ -160,7 +160,7 @@
             "highlights": [
                 "Developed and maintained nationwide educational platforms, enhancing the learning experience for thousands of users.",
                 "Built a comprehensive financial management application with Laravel and Vue.",
-                "Managed all DigitalOcean droplets with a CI setup ensuring reliable and efficient deployment processes.",
+                "Streamlined the management of DigitalOcean droplets through a comprehensive CI setup, resulting in faster deployment processes and increased reliability.",
                 "↪ Technologies: Laravel, DigitalOcean, Laravel Forge, MySql, VueJS"
             ]
         },
