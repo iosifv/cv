@@ -9,20 +9,20 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 2. 🖥 Spin up a Github Action which:
    1. Using resume-cli generates the resume in 2 formats: html and pdf
    2. Updates the resume.json public gist
-   3. Saves the generated html and pdf files to a separate branch "generated-page"
+   3. Saves the generated html and pdf files to a separate branch: "generated-page"
    4. A github page is synced using this branch/html
 3. ☕️ Have a coffee
-4. 📞 Wait for recruiters to call
 
 ## Links (sitemap)
 - [Github - Associated Gist for this page](https://gist.github.com/iosifv/bdfc617628bc7a2fc8763a2be6b1a816)
 - [Github - Generated Gihub Page - LinkHub](https://iosifv.github.io/cv)
-- [Github - Generated Gihub Page - cv.pdf](https://iosifv.github.io/cv/cv.pdf)
-- [Github - Generated Gihub Page - Iosif_Vigh-Senior_Software_Engineer.pdf)](https://iosifv.github.io/cv/Iosif_Vigh-Senior_Software_Engineer.pdf)
+- [Github - Generated Gihub Page - generated cv.html (view.html)](https://iosifv.github.io/cv/view.html)
+- [Github - Generated Gihub Page - generated cv.pdf](https://iosifv.github.io/cv/cv.pdf)
+- [Github - Generated Gihub Page - Iosif_Vigh-Senior_Software_Engineer.pdf](https://iosifv.github.io/cv/Iosif_Vigh-Senior_Software_Engineer.pdf)
 - [cv.iosifv.com - LinkHub](https://cv.iosifv.com/)
-- [cv.iosifv.com - View CV](https://cv.iosifv.com/view)
+- [cv.iosifv.com - View online CV](https://cv.iosifv.com/view)
 - [cv.iosifv.com - cv.pdf](https://cv.iosifv.com/cv.pdf)
-- [cv.iosifv.com - Iosif_Vigh-Senior_Software_Engineer.pdf)](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
+- [cv.iosifv.com - Iosif_Vigh-Senior_Software_Engineer.pdf](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
   
 
 ####  Jsonresume Registry (generated from gist)
