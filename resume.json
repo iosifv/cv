@@ -59,6 +59,7 @@
             "name": "Dev-Ops",
             "keywords": [
                 "AWS",
+                "GCP",
                 "Terraform",
                 "CI/CD",
                 "Github Actions",
