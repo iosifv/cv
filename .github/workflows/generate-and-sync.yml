@@ -40,12 +40,12 @@ jobs:
           file_path: resume.json
           file_type: binary
 
-      - name: GIST - Deploy resume.pdf
+      - name: GIST - Deploy cv.pdf
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.GHA_TOKEN_FOR_GISTS }}
           gist_id: bdfc617628bc7a2fc8763a2be6b1a816
-          file_path: temporary/resume.pdf
+          file_path: temporary/cv.pdf
           file_type: binary
       
       - name: Commit published HTML
