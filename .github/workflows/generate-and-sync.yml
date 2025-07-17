@@ -1,4 +1,4 @@
-name: resume-generation
+name: cv-generation
 on:
   push:
     branches:    
@@ -25,12 +25,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate HTML and PDF resume
+      - name: Generate HTML and PDF files
         env:
           RESUME_PUPPETEER_NO_SANDBOX: 1
         run: |
-          npx resume-cli export temporary/resume.html --resume resume.json --theme stackoverflow
-          npx resume-cli export temporary/resume.pdf --resume resume.json --theme stackoverflow
+          npx resume-cli export temporary/cv.html --resume resume.json --theme stackoverflow
+          npx resume-cli export temporary/cv.pdf --resume resume.json --theme stackoverflow
   
       - name: GIST - Deploy resume.json
         uses: exuanbo/actions-deploy-gist@v1
@@ -56,12 +56,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git checkout generated-page
           
-          cp temporary/resume.html docs/resume.html
-          cp temporary/resume.pdf docs/resume.pdf
-          cp temporary/resume.pdf docs/Iosif_Vigh-Senior_Software_Engineer.pdf
+          cp temporary/cv.html docs/view.html
+          cp temporary/cv.pdf docs/cv.pdf
+          cp temporary/cv.pdf docs/Iosif_Vigh-Senior_Software_Engineer.pdf
           
-          git add docs/resume.html
-          git add docs/resume.pdf
+          git add docs/view.html
+          git add docs/cv.pdf
           git add docs/Iosif_Vigh-Senior_Software_Engineer.pdf
 
           # Copy the index html file
