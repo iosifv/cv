@@ -14,14 +14,15 @@ Generator for my CV which is using the [jsonresume](https://jsonresume.org/) nod
 3. ☕️ Have a coffee
 4. 📞 Wait for recruiters to call
 
-## Links
-- [My Gist for the json](https://gist.github.com/iosifv/bdfc617628bc7a2fc8763a2be6b1a816)
-- [Generated Gihub Page](https://iosifv.github.io/cv)
-- [Generated Gihub Page (pdf)](https://iosifv.github.io/cv/resume.pdf)
-- [Generated Gihub Page (pdf)](https://iosifv.github.io/cv/Iosif_Vigh-Senior_Software_Engineer.pdf)
-- [Mirrored Page on my website](https://cv.iosifv.com/)
-- [Mirrored Page on my website (pdf)](https://cv.iosifv.com/resume.pdf)
-- [Mirrored Page on my website (pdf)](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
+## Links (sitemap)
+- [Github - Associated Gist for this page](https://gist.github.com/iosifv/bdfc617628bc7a2fc8763a2be6b1a816)
+- [Github - Generated Gihub Page - LinkHub](https://iosifv.github.io/cv)
+- [Github - Generated Gihub Page - cv.pdf](https://iosifv.github.io/cv/cv.pdf)
+- [Github - Generated Gihub Page - Iosif_Vigh-Senior_Software_Engineer.pdf)](https://iosifv.github.io/cv/Iosif_Vigh-Senior_Software_Engineer.pdf)
+- [cv.iosifv.com - LinkHub](https://cv.iosifv.com/)
+- [cv.iosifv.com - View CV](https://cv.iosifv.com/view)
+- [cv.iosifv.com - cv.pdf](https://cv.iosifv.com/cv.pdf)
+- [cv.iosifv.com - Iosif_Vigh-Senior_Software_Engineer.pdf)](https://cv.iosifv.com/Iosif_Vigh-Senior_Software_Engineer.pdf)
   
 
 ####  Jsonresume Registry (generated from gist)
