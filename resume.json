@@ -128,7 +128,7 @@
             "position": "Software Engineer",
             "website": "https://truecompliance.co.uk/",
             "startDate": "2020-10-01",
-            "endDate": "2022-08-01",
+            "endDate": "2022-09-01",
             "summary": "Contributed to the development of a cloud-based compliance management system, enhancing compliance tracking and reporting capabilities.",
             "highlights": [
                 "Developed the main API of the system and contributed to designing the ecosystem's serverless architecture, leading to a robust and scalable solution.",
@@ -142,7 +142,7 @@
             "company": "Skin Analytics (London, UK)",
             "position": "Software Engineer",
             "website": "https://skin-analytics.com/",
-            "startDate": "2018-10-01",
+            "startDate": "2018-11-01",
             "endDate": "2019-10-01",
             "summary": "Designed and developed main applications and maintained AWS infrastructure, contributing to the company's mission of improving skin health.",
             "highlights": [
@@ -155,7 +155,7 @@
             "position": "Application Developer / Dev-Ops",
             "website": "https://www.woooba.io/",
             "startDate": "2017-02-01",
-            "endDate": "2018-06-01",
+            "endDate": "2018-11-01",
             "summary": "Sole Backend Engineer responsible for designing, developing, and supporting client applications, driving business growth.",
             "highlights": [
                 "Developed and maintained nationwide educational platforms, enhancing the learning experience for thousands of users.",
@@ -168,7 +168,7 @@
             "company": "iQU Group (Amsterdam, NL)",
             "position": "PHP Application Developer",
             "startDate": "2015-11-01",
-            "endDate": "2016-11-01",
+            "endDate": "2017-02-01",
             "summary": "Marketing solutions for game developers.",
             "highlights": [
                 "Created complete APIs from start to end as well as libraries which were used by my colleagues. Besides the backend work, I also built an AngularJS client to consume one of the APIs.",
