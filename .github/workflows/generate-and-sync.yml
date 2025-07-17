@@ -70,7 +70,8 @@ jobs:
           git add docs/index.html
 
           # This needed just for legacy purposes for when I used to give the link: cv.iosifv.com/dl
-          cp dl-redirect.html docs/dl.html
+          git checkout main -- dl.html
+          cp dl.html docs/dl.html
           git add docs/dl.html
           
           git commit -m "Added generated file changes"
