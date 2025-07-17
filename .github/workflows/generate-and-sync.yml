@@ -17,14 +17,20 @@ jobs:
         run: |
           mkdir temporary
 
-      - name: JSON Resume Create Files
-        uses: rvdwegen/action-jsonresume-convert@latest
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
-          theme: stackoverflow
-          resume_filepath: resume.json
-          output_html_filepath: temporary/index.html
-          output_pdf_filepath: temporary/resume.pdf
+          node-version: '20'
+
+      - name: Install resume-cli and theme
+        run: npm install -g resume-cli jsonresume-theme-stackoverflow
+
+      - name: Generate HTML and PDF resume
+        env:
+          RESUME_PUPPETEER_NO_SANDBOX: 1
+        run: |
+          resume export temporary/resume.html --resume resume.json --theme stackoverflow
+          resume export temporary/resume.pdf --resume resume.json --theme stackoverflow
   
       - name: GIST - Deploy resume.json
         uses: exuanbo/actions-deploy-gist@v1
@@ -50,19 +56,21 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git checkout generated-page
           
-          cp temporary/index.html docs/index.html
+          cp temporary/resume.html docs/resume.html
           cp temporary/resume.pdf docs/resume.pdf
           cp temporary/resume.pdf docs/Iosif_Vigh-Senior_Software_Engineer.pdf
           
-          git add docs/index.html
+          git add docs/resume.html
           git add docs/resume.pdf
           git add docs/Iosif_Vigh-Senior_Software_Engineer.pdf
 
-          # Copy the download html file
-          git checkout main -- download.html
-          cp download.html docs/download.html
-          cp download.html docs/dl.html
-          git add docs/download.html
+          # Copy the index html file
+          git checkout main -- index.html
+          cp index.html docs/index.html
+          git add docs/index.html
+
+          # This needed just for legacy purposes for when I used to give the link: cv.iosifv.com/dl
+          cp dl-redirect.html docs/dl.html
           git add docs/dl.html
           
           git commit -m "Added generated file changes"

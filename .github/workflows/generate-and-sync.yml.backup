@@ -23,7 +23,7 @@ jobs:
           # JSONResume theme name. Assumes the theme package would be found as `jsonresume-theme-{theme}` in NPM.
           theme: stackoverflow
           resume_filepath: resume.json
-          output_html_filepath: temporary/resume.html
+          output_html_filepath: temporary/index.html
           output_pdf_filepath: temporary/resume.pdf
   
       - name: GIST - Deploy resume.json
@@ -50,21 +50,19 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git checkout generated-page
           
-          cp temporary/resume.html docs/resume.html
+          cp temporary/index.html docs/index.html
           cp temporary/resume.pdf docs/resume.pdf
           cp temporary/resume.pdf docs/Iosif_Vigh-Senior_Software_Engineer.pdf
           
-          git add docs/resume.html
+          git add docs/index.html
           git add docs/resume.pdf
           git add docs/Iosif_Vigh-Senior_Software_Engineer.pdf
 
-          # Copy the index html file
-          git checkout main -- index.html
-          cp index.html docs/index.html
-          git add docs/index.html
-
-          # This needed just for legacy purposes for when I used to give the link: cv.iosifv.com/dl
-          cp dl-redirect.html docs/dl.html
+          # Copy the download html file
+          git checkout main -- download.html
+          cp download.html docs/download.html
+          cp download.html docs/dl.html
+          git add docs/download.html
           git add docs/dl.html
           
           git commit -m "Added generated file changes"
