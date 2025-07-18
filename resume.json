@@ -128,12 +128,12 @@
             "position": "Fractional CTO",
             "startDate": "2021-03-01",
             "endDate": "2013-09-01",
-            "summary": ".",
+            "summary": "Translated business requirements into actionable project features and oversaw application architecture.",
             "highlights": [
-                "I was responsible with converting business requirements into project features by overseeing the application architecture.",
-                "I managed a team of 3-4 developers and provided them with necessary assistance.",
-                "The ecosystem consisted in a backend Express API which connected to blockchain a smart contract written in Solidity, a frontend React app which had a 3D part written in ThreeJS.",
-                "The project was deployed to an AWS infrastructure using Docker.",
+                "Led the development and launch of the MVP, leveraging a team of part-time contractors and very limited resources.",
+                "Designed and managed a technology ecosystem comprising a backend Express API integrated with blockchain smart contracts (Solidity), and a React frontend with 3D components (ThreeJS).",
+                "Supervised deployments to AWS infrastructure using Docker, ensuring robust and scalable operations.",
+                "Managed a team of 3-4 developers, providing technical guidance and support.",
                 "↪ Technologies: Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker"
             ]
         },
@@ -141,7 +141,7 @@
             "company": "True Compliance (London, UK)",
             "position": "Software Engineer",
             "website": "https://truecompliance.co.uk/",
-            "startDate": "2020-10-01",
+            "startDate": "2019-10-01",
             "endDate": "2022-09-01",
             "summary": "Contributed to the development of a cloud-based compliance management system, enhancing compliance tracking and reporting capabilities.",
             "highlights": [
