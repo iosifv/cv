@@ -37,16 +37,16 @@
         {
             "name": "Languages",
             "keywords": [
-                "Node.js",
                 "Javascript",
                 "Typescript",
+                "Node.js",
                 "PHP",
                 "Solidity",
                 "bash"
             ]
         },
         {
-            "name": "Frameworks",
+            "name": "Backend",
             "keywords": [
                 "Laravel",
                 "Express",
@@ -56,7 +56,15 @@
             ]
         },
         {
-            "name": "Dev-Ops",
+            "name": "Frontend",
+            "keywords": [
+                "React",
+                "VueJS",
+                "Angular"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
             "keywords": [
                 "AWS",
                 "GCP",
@@ -80,28 +88,40 @@
             ]
         },
         {
-            "name": "Architectures",
+            "name": "Architecture & Design",
             "keywords": [
-                "MVC",
                 "Microservices",
                 "Serverless",
-                "Client server",
                 "Event-driven",
-                "Monolith"
+                "Monolith",
+                "MVC",
+                "SOLID"
+            ]
+        },
+        {
+            "name": "Testing",
+            "keywords": [
+                "PHPUnit",
+                "TDD",
+                "Unit Testing",
+                "Integration Testing"
             ]
         },
         {
             "name": "Standards",
             "keywords": [
-                "Caching",
-                "ORMs",
-                "SOLID",
-                "ACID",
-                "Indexing",
                 "REST",
                 "OpenAPI",
                 "JWT",
-                "CLI"
+                "OWASP Top 10"
+            ]
+        },
+        {
+            "name": "Methodologies",
+            "keywords": [
+                "Agile",
+                "Scrum",
+                "Kanban"
             ]
         }
     ],
@@ -114,13 +134,13 @@
             "summary": "Provided contractor services through my own LTD, Casa4, in between other roles. The following is a list of the most notable projects, specialising in Laravel and Node.js. Involved both in team-based development and solo application building from design to deployment and maintenance.",
             "highlights": [
 
-                "**ElectroRent** *(Laravel, MySQL, SQLite, Bash)* As a **Backend Engineer**, I enhanced application performance by optimizing critical API areas and expanded functionality by designing and implementing new endpoints for key business features.",
+                "**ElectroRent** *(Laravel, MySQL, SQLite, Bash)* \n As a **Backend Engineer**, I enhanced application performance by optimizing critical API areas and expanded functionality by designing and implementing new endpoints for key business features.",
 
-                "**Aliat Optic** *(Node.js, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)* As a **Solution Architect**, I designed and built a serverless invoicing application that operated reliably in production for over 3 years with minimal maintenance, processing external FTP data via AWS Lambda and DynamoDB.",
+                "**Aliat Optic** *(Node.js, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)* \n As a **Solution Architect**, I designed and built a serverless invoicing application that operated reliably in production for over 3 years with minimal maintenance, processing external FTP data via AWS Lambda and DynamoDB.",
 
-                "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* As a **Backend and DevOps Engineer**, I orchestrated the migration of a major application to the client's own AWS infrastructure. This involved a full technology upgrade from PHP 5.5 to 8.1, provisioning new infrastructure, and establishing a modern CI/CD pipeline, ensuring zero data loss. Throughout the project, I created and presented diagrams to stakeholders to communicate the process and progress at each stage.",
+                "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a **Backend and DevOps Engineer**, I orchestrated the migration of a major application to the client's own AWS infrastructure. This involved a full technology upgrade from PHP 5.5 to 8.1, provisioning new infrastructure, and establishing a modern CI/CD pipeline, ensuring zero data loss. Throughout the project, I created and presented diagrams to stakeholders to communicate the process and progress at each stage.",
 
-                "**TicketTailor** *(PHP, MySQL, SQLite)* As a **Backend Engineer** I worked on the API of the second largest ticketing application in Europe. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
+                "**TicketTailor** *(PHP, MySQL, SQLite)* \n As a **Backend Engineer** I worked on the API of the second largest ticketing application in Europe. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
             ]
         },
         {
