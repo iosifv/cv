@@ -39,7 +39,6 @@
             "keywords": [
                 "Javascript",
                 "Typescript",
-                "Node.js",
                 "PHP",
                 "Solidity",
                 "bash"
@@ -48,9 +47,9 @@
         {
             "name": "Backend",
             "keywords": [
+                "Node.js",
                 "Laravel",
                 "Express",
-                "Loopback",
                 "Serverless",
                 "Hardhat"
             ]
@@ -59,7 +58,7 @@
             "name": "Frontend",
             "keywords": [
                 "React",
-                "VueJS",
+                "Vue",
                 "Angular"
             ]
         },
@@ -69,10 +68,12 @@
                 "AWS",
                 "GCP",
                 "Terraform",
+                "Docker",
                 "CI/CD",
                 "Github Actions",
                 "Vercel",
-                "Docker"
+                "Observability",
+                "Infrastructure as Code"
             ]
         },
         {
@@ -80,22 +81,26 @@
             "keywords": [
                 "MySQL",
                 "PostgreSQL",
+                "Aurora",
                 "MongoDB",
-                "AuroraDB",
                 "DynamoDB",
                 "Redis",
-                "SQLite"
+                "SQLite",
+                "Data Modeling",
+                "Query Optimization"
             ]
         },
         {
             "name": "Architecture & Design",
             "keywords": [
+                "System Design",
+                "SOLID",
+                "Domain-Driven Design (DDD)",
                 "Microservices",
                 "Serverless",
                 "Event-driven",
                 "Monolith",
-                "MVC",
-                "SOLID"
+                "MVC"
             ]
         },
         {
@@ -103,6 +108,7 @@
             "keywords": [
                 "PHPUnit",
                 "TDD",
+                "BDD",
                 "Unit Testing",
                 "Integration Testing"
             ]
@@ -112,8 +118,9 @@
             "keywords": [
                 "REST",
                 "OpenAPI",
+                "Oauth",
                 "JWT",
-                "OWASP Top 10"
+                "OWASP"
             ]
         },
         {
@@ -121,7 +128,10 @@
             "keywords": [
                 "Agile",
                 "Scrum",
-                "Kanban"
+                "Kanban",
+                "Lean",
+                "Clean Code",
+                "Mentoring"
             ]
         }
     ],
@@ -213,13 +223,13 @@
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
             "summary":
-            "A production-ready financial web application to calculate recurring monthly expenses. Initially started as a training project to practice my full-stack skills. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labelling.\nI used the \"T3 Stack\" which is a web development stack focused on simplicity, modularity, and full-stack typesafety. The full technology list is: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
+            "A full-stack, production-ready web app for tracking recurring expenses, built to practice modern, full-stack type-safe development. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labelling.\n The full technology list is: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
         },
         {
             "name": "CLI Path",
             "url": "https://iosifv.github.io/cli-path/",
             "summary":
-            "Created a CLI tool to check Google Maps API directions, with saved locations, authentication, and a custom serverless API layer to simplify token management - built for training, touching multiple technologies: *Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
+            "A CLI tool for checking Google Maps directions with saved locations and a custom serverless API for token management. Built for training, touching multiple technologies: *Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
         },
         {
             "name": "Casa4 website",
