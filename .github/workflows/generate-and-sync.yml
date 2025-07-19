@@ -29,9 +29,9 @@ jobs:
         env:
           RESUME_PUPPETEER_NO_SANDBOX: 1
         run: |
-          npx resume-cli export temporary/cv.html --resume resume.json --theme stackoverflow
-          npx resume-cli export temporary/cv.pdf --resume resume.json --theme stackoverflow
-  
+          npx resume-cli export temporary/cv.html --resume resume.json --theme ./themes/my-stackoverflow
+          npx resume-cli export temporary/cv.pdf  --resume resume.json --theme ./themes/my-stackoverflow
+   
       - name: GIST - Deploy resume.json
         uses: exuanbo/actions-deploy-gist@v1
         with:
