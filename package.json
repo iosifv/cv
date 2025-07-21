@@ -4,7 +4,8 @@
   "description": "Generator for my CV which is using the [jsonresume](https://jsonresume.org/) node app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "npx resume-cli export exports/so-preview.html --resume resume.json --theme ./themes/my-stackoverflow && npx resume-cli export exports/so-preview.pdf --resume resume.json --theme ./themes/my-stackoverflow",
+    "preview-original": "npx resume-cli export exports/so-original.html --resume resume.json --theme stackoverflow && npx resume-cli export exports/so-original.pdf --resume resume.json --theme stackoverflow"
   },
   "repository": {
     "type": "git",
