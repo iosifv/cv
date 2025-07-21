@@ -496,7 +496,7 @@ section .location {
 #languages .item,
 #skills .item,
 #interests .item {
-  width: 15em;
+  width: 35em;
   padding: 0 0.5em 0.5em 0;
   border-bottom: none;
 }

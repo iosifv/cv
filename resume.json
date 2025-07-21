@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "(+44) 759 713 7739",
         "website": "https://iosifv.com",
-        "summary": "I am a Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through strategic architecture, clean code, automated testing and resilient deployments - paired with good documentation and mentorship. A core focus is ensuring technical outcomes directly align with business needs. Public projects reflect my commitment to innovation and continuous learning. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems—whether collaborating within teams or driving solo initiatives.",
+        "summary": "I am a Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through strategic architecture, clean code, automated testing and resilient deployments - paired with good documentation and mentorship. A core focus is ensuring technical outcomes directly align with business needs. Public projects reflect my commitment to innovation and continuous learning. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems; whether collaborating within teams or driving solo initiatives.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -257,10 +257,7 @@
             "startDate": "2010-01-01",
             "endDate": "2012-01-01",
             "courses": [
-                "Operations Management",
-                "Business Analytics",
-                "Marketing Fundamentals",
-                "Human Resource Management"
+
             ]
         },
         {
@@ -270,22 +267,7 @@
             "startDate": "2004-01-01",
             "endDate": "2009-01-01",
             "courses": [
-                "Object-oriented programming",
-                "Data Structures and Algorithms",
-                "Advanced Databases",
-                "Computer Networks",
-                "C++",
-                "Java",
-                ".NET",
-                "SQL",
-                "Lisp",
-                "Prolog",
-                "Xilinx",
-                "Assembly",
-                "x86 processor",
-                "Electronics",
-                "Physics",
-                "Mathematics"
+
             ]
         }
     ],
