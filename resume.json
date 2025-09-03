@@ -86,7 +86,6 @@
                 "DynamoDB",
                 "Redis",
                 "SQLite",
-                "Data Modeling",
                 "Query Optimization"
             ]
         },
@@ -95,7 +94,6 @@
             "keywords": [
                 "System Design",
                 "SOLID",
-                "Domain-Driven Design (DDD)",
                 "Microservices",
                 "Serverless",
                 "Event-driven",
