@@ -2,7 +2,7 @@
     "meta": {
         "lastModified": "2024-03-12",
         "theme": "stackoverflow",
-        "tagline": "Senior Backend Engineer | Architecting High-Performance Systems | Cloud-based Applications and Architecture | Available for Remote Projects 🌍"
+        "tagline": "Senior Backend Engineer | High-Performance Systems | Cloud Architecture | Available for Remote Projects"
     },
     "basics": {
         "name": "Iosif Vigh",
@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "(+44) 759 713 7739",
         "website": "https://iosifv.com",
-        "summary": "I am a Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through strategic architecture, clean code, automated testing and resilient deployments - paired with good documentation and mentorship. A core focus is ensuring technical outcomes directly align with business needs. Public projects reflect my commitment to innovation and continuous learning. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems; whether collaborating within teams or driving solo initiatives.",
+        "summary": "Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through clean architecture, automated testing, resilient deployments, and mentoring. A core focus is ensuring technical outcomes directly align with business needs. Portfolio projects showcase continuous learning and innovation. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems; whether collaborating within teams or driving solo initiatives.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -161,7 +161,7 @@
             "summary": "Translated business requirements into actionable project features and oversaw application architecture.",
             "highlights": [
                 "Led the development and launch of the MVP, leveraging a team of part-time contractors and very limited resources.",
-                "Designed and managed a technology ecosystem comprising a backend Express API integrated with blockchain smart contracts (Solidity), and a React frontend with 3D components (ThreeJS).",
+                "Architected and managed backend API, blockchain smart contracts and frontend integrations with 3D components",
                 "Led a team of 3-4 developers, providing technical guidance, managing the product backlog, and supervising deployments to AWS infrastructure using Docker to ensure robust and scalable operations.",
                 "↪ Technologies: Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker"
             ]
@@ -223,7 +223,7 @@
             "name": "Recspenses",
             "url": "https://www.github.com/iosifv/recspenses/",
             "summary":
-            "A full-stack, production-ready web app for tracking recurring expenses, built to practice modern, full-stack type-safe development. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labelling.\n The full technology list is: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
+            "A full-stack, production-ready web app for tracking recurring expenses, built to practice modern, full-stack type-safe development. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labelling.\n Built with: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
         },
         {
             "name": "CLI Path",
