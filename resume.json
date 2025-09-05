@@ -1,8 +1,8 @@
 {
     "meta": {
-        "lastModified": "2024-03-12",
+        "lastModified": "2025-09-05",
         "theme": "stackoverflow",
-        "tagline": "Senior Backend Engineer | High-Performance Systems | Cloud Architecture | Available for Remote Projects"
+        "tagline": "Senior Backend Engineer | Bridging Business Goals and Technology | Available for Remote Projects"
     },
     "basics": {
         "name": "Iosif Vigh",
@@ -10,7 +10,7 @@
         "email": "hire-me@iosifv.com",
         "phone": "(+44) 759 713 7739",
         "website": "https://iosifv.com",
-        "summary": "Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through clean architecture, automated testing, resilient deployments, and mentoring. A core focus is ensuring technical outcomes directly align with business needs. Portfolio projects showcase continuous learning and innovation. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems; whether collaborating within teams or driving solo initiatives.",
+        "summary": "Senior Software Engineer with **10+ years** of experience architecting systems using **Node.js** and **Laravel**, specialising in backend development, cloud infrastructure and DevOps automation. Proven track record in various engineering roles for clients across industries like fintech, healthtech, and regulatory compliance. I turn complex requirements into **maintainable, high-performance systems** through clean architecture, automated testing, resilient deployments, and mentoring. A core focus is ensuring technical outcomes directly align with business needs. I am passionate about understanding user needs and translating them into successful products. Portfolio projects showcase continuous learning and innovation. Seeking **fast-paced environments** leveraging modern stacks and agile practices to solve high-impact problems; whether collaborating within teams or driving solo initiatives.",
         "location": {
             "city": "London",
             "countryCode": "UK"
@@ -59,7 +59,8 @@
             "keywords": [
                 "React",
                 "Vue",
-                "Angular"
+                "Angular",
+                "Tailwind"
             ]
         },
         {
@@ -67,13 +68,11 @@
             "keywords": [
                 "AWS",
                 "GCP",
-                "Terraform",
+                "Vercel",
                 "Docker",
                 "CI/CD",
-                "Github Actions",
-                "Vercel",
-                "Observability",
-                "Infrastructure as Code"
+                "GHA",
+                "Terraform"
             ]
         },
         {
@@ -84,9 +83,17 @@
                 "Aurora",
                 "MongoDB",
                 "DynamoDB",
-                "Redis",
-                "SQLite",
-                "Query Optimization"
+                "Redis"
+            ]
+        },
+        {
+            "name": "Testing",
+            "keywords": [
+                "PHPUnit",
+                "TDD",
+                "BDD",
+                "Unit Testing",
+                "Integration Testing"
             ]
         },
         {
@@ -102,34 +109,26 @@
             ]
         },
         {
-            "name": "Testing",
-            "keywords": [
-                "PHPUnit",
-                "TDD",
-                "BDD",
-                "Unit Testing",
-                "Integration Testing"
-            ]
-        },
-        {
-            "name": "Standards",
+            "name": "Practices",
             "keywords": [
                 "REST",
                 "OpenAPI",
                 "Oauth",
                 "JWT",
-                "OWASP"
-            ]
-        },
-        {
-            "name": "Methodologies",
-            "keywords": [
+                "OWASP",
                 "Agile",
                 "Scrum",
                 "Kanban",
                 "Lean",
-                "Clean Code",
-                "Mentoring"
+                "Clean Code"
+            ]
+        },
+        {
+            "name": "Product & Strategy",
+            "keywords": [
+                "Roadmap Planning",
+                "User-Centric Design",
+                "Stakeholder Management"
             ]
         }
     ],
@@ -146,9 +145,9 @@
 
                 "**Aliat Optic** *(Node.js, Serverless Framework, Lambda, DynamoDB, AWS, MySQL, Laravel, DigitalOcean)* \n As a **Solution Architect**, I designed and built a serverless invoicing application that operated reliably in production for over 3 years with minimal maintenance, processing external FTP data via AWS Lambda and DynamoDB.",
 
-                "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a **Backend and DevOps Engineer**, I orchestrated the migration of a major application to the client's own AWS infrastructure. This involved a full technology upgrade from PHP 5.5 to 8.1, provisioning new infrastructure, and establishing a modern CI/CD pipeline, ensuring zero data loss. Throughout the project, I created and presented diagrams to stakeholders to communicate the process and progress at each stage.",
+                "**Hurlingham Club** *(Laravel, Laravel Forge, Laravel Envoyer, MySQL, AWS, Docker)* \n As a **Backend and DevOps Engineer**, I orchestrated the migration of a major application to the client's own AWS infrastructure, resulting in a 40% reduction in infrastructure costs. This involved a full technology upgrade from PHP 5.5 to 8.1, provisioning new infrastructure, and establishing a modern CI/CD pipeline, ensuring zero data loss. Throughout the project, I created and presented diagrams to stakeholders to communicate the process and progress at each stage.",
 
-                "**TicketTailor** *(PHP, MySQL, SQLite)* \n As a **Backend Engineer** I worked on the API of the second largest ticketing application in Europe. Designed and implemented a testing framework using PHPUnit to automatically scan OpenAPI specs and validate each API endpoint, including all new additions. This significantly improved deployment times combined with strategically assigning tests to the appropriate level (unit, integration, acceptance). Also contributed by adding numerous endpoints to the client-facing API."
+                "**TicketTailor** *(PHP, MySQL, SQLite)* \n As a **Backend Engineer** I worked on the API of the second largest ticketing application in Europe. Designed and implemented a testing framework using PHPUnit with automated OpenAPI validation. This improved deployment times by 35% while indreasing reliability. Also contributed by adding numerous endpoints to the client-facing API."
             ]
         },
         {
@@ -156,11 +155,11 @@
             "position": "Fractional CTO",
             "startDate": "2021-03-01",
             "endDate": "2024-09-01",
-            "summary": "Translated business requirements into actionable project features and oversaw application architecture.",
+            "summary": "Owned the product roadmap by translating business requirements into actionable project features and oversaw application architecture to ensure alignment with business goals.",
             "highlights": [
-                "Led the development and launch of the MVP, leveraging a team of part-time contractors and very limited resources.",
+                "Led the development and launch of the MVP, defining the product vision and strategy, leveraging a team of part-time contractors and very limited resources to deliver a successful product to market.",
                 "Architected and managed backend API, blockchain smart contracts and frontend integrations with 3D components",
-                "Led a team of 3-4 developers, providing technical guidance, managing the product backlog, and supervising deployments to AWS infrastructure using Docker to ensure robust and scalable operations.",
+                "Led a team of 3-4 developers, providing technical guidance, prioritizing the product backlog to maximize business value, and supervising deployments to AWS infrastructure using Docker to ensure robust and scalable operations.",
                 "↪ Technologies: Node.js, React, ThreeJS, Solidity, Hardhat, Express, Postgres, MongoDB, AWS, Docker"
             ]
         },
