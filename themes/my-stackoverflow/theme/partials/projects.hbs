@@ -14,6 +14,12 @@
       <header class="clear">
         {{#if name}}
         <div class="position">{{name}}</div>
+          {{#if url}}
+          <span class="website">
+            -
+            <a target="_blank" href="{{url}}">{{url}}</a>
+          </span>
+          {{/if}}
         {{/if}}
         {{#if startDate}}
         <div class="date">
@@ -43,12 +49,7 @@
       {{/if}}
       </span>
       {{/location}}
-      {{#if url}}
-      <span class="website">
-        <span class="fa-solid fa-up-right-from-square"></span>
-        <a target="_blank" href="{{url}}">{{url}}</a>
-      </span>
-      {{/if}}
+
       {{#if keywords.length}}
       <ul class="keywords">
         {{#each keywords}}
