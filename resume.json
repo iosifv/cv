@@ -134,6 +134,21 @@
     ],
     "work": [
         {
+            "company": "Headliners Agency",
+            "position": "Technical Product Owner & Solo Full-Stack Developer",
+            "website": "https://headliners.io/",
+            "startDate": "2025-06-01",
+            "summary": "Served as sole technical resource bridging business requirements and technical implementation, translating stakeholder needs from a non-technical business owner into a production-ready comedy agency management platform",
+            "highlights": [
+                "Led full product lifecycle as both architect and implementer: gathered requirements, created detailed technical specifications, designed system architecture, and delivered working features independently",
+                "Managed stakeholder expectations by breaking complex business requirements (artist management, event booking, contract workflows) into iterative deliverables with clear acceptance criteria",
+                "Implemented enterprise-level permission system after analyzing business workflows and team structure requirements, ensuring proper data isolation and role-based access patterns",
+                "Balanced competing priorities of speed-to-market vs. code quality by establishing pragmatic testing strategy: comprehensive type safety and architecture tests with focused feature coverage, enabling rapid iteration while maintaining production stability",
+                "↪ Technologies: PHP 8.4, Laravel 12, Filament 4, PostgreSQL",
+                "↪ Product: Requirements Analysis, Technical Specifications, Stakeholder Management, System Architecture"
+            ]
+        },
+        {
             "company": "Casa4 - own LTD (London, UK)",
             "position": "Contractor Software Engineer",
             "website": "https://casa4.co.uk/",
@@ -218,25 +233,25 @@
     "projects": [
         {
             "name": "Recspenses",
-            "url": "https://www.github.com/iosifv/recspenses/",
+            "url": "https://github.com/iosifv/recspenses",
             "summary":
             "A web app for tracking expenses, built to practice modern, full-stack type-safe development. Features include: a simple UI, multi-currency support including cryptocurrencies and an intuitive tagging system for expense labelling.\n Built with: *NextJS, tRPC, TypeScript, Node.js, Clerk, Drizzle ORM, PostgreSQL, Tailwind CSS, Vercel, GHA*"
         },
         {
             "name": "CLI Path",
-            "url": "https://iosifv.github.io/cli-path/",
+            "url": "https://iosifv.github.io/cli-path",
             "summary":
             "A CLI tool for checking Google Maps directions with saved locations and a custom serverless API for token management. Built for training, touching multiple technologies: *Node.js, Serverless Framework, AWS, Auth0, OpenAPI, VHS, npm, GHA*"
         },
         {
             "name": "Casa4 website",
-            "url": "https://casa4.co.uk/",
+            "url": "https://casa4.co.uk",
             "summary":
             "An overengineered personal website built for learning purposes. Themed with *Hugo*, built with *Terraform* and  *Cloudfront*, deployed to *AWS S3* with *Github Actions*."
         },
         {
             "name": "T3 (Terminal Toolbelt Two)",
-            "url": "https://www.github.com/iosifv/t3/",
+            "url": "https://github.com/iosifv/t3",
             "summary":
             "Inspired by the naming of Amazon's S3, I built T3 to resemble a framework for improving a terminal user's experience by ading beautiful UI elements. Features include: an install script, platform selection (osx, ubuntu)."
         },
